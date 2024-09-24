@@ -1,0 +1,1390 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Coupon Box for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-13 09:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:434
+msgid " days if the visitor subscribes"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:940
+msgid ""
+" The API key for connecting with your MailChimp account. Get your API key "
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1150
+msgid " to show only on cart page"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1163
+msgid " to show only on cart page and checkout page"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1152
+msgid " to show only on checkout page"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1156
+msgid " to show only on WooCommerce shop page"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1158
+msgid " to show only on WooCommerce single product page"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:927
+msgid " to using this feature."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1148
+msgid ""
+"\"Home page\" option above must be disabled to run these conditional tags."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/templates/customize.php:80
+msgid "*Enter your email address"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:242
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:499
+msgid "*Invalid email!"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/shortcode.php:258
+msgid "*Invalid email! Please enter a valid email and subscribe."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:57
+msgid "*Invalid google reCAPTCHA secret key!"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:48
+msgid "*Invalid google reCAPTCHA!"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:33
+msgid "*No g_validate_response"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:498
+msgid "*Please enter your email and subscribe."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:80
+msgid "*reCAPTCHA score"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:71
+msgid "*reCAPTCHA verification failed"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:150
+msgid "*This email already subscribed!"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/shortcode.php:175
+msgid ""
+"*This email already subscribed. Please enter another email and subscribe!"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1099
+msgid "1, Visit"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1104
+msgid "2, Choose reCAPTCHA v2 checkbox "
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1108
+msgid "2, Choose reCAPTCHA v3"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1110
+msgid "3, Fill in authorized domains"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1111
+msgid "4, Accept terms of service and click Register button"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1112
+msgid "5, Copy and paste the site and secret key into the above field"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1830
+msgid ""
+"A small icon to call coupon again after a visitor closes coupon box without "
+"subscribing"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:977
+msgid "Active Campaign"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:418
+msgid "ActiveCampaign integrated"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:260
+msgid "Add New Email Subscribe"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:258
+msgctxt "Add new on Admin bar"
+msgid "Email"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:257
+msgctxt "Admin menu"
+msgid "Coupon Box for WooCommerce"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:343
+msgid "After initial time"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:447
+msgid "After subscribe"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:570
+msgid "Allow free shipping"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/includes/3rd/elementor/shortcode-widget.php:38
+msgid "Always Visible"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:288
+msgid "Assign"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1137
+msgid "Assign Page"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1037
+msgid "Auto"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:733
+msgid "Background Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:415
+msgid "Background effect like snow, rain..."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:446
+msgid "Before subscribe"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:950
+msgid "Body"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:974
+msgid "Body Background Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:998
+msgid "Body Background Image"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1054
+msgid "Body Background Image Position"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1013
+msgid "Body Background Image Repeat"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1035
+msgid "Body Background Image Size"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:962
+msgid "Body Text Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1859
+msgid "Bottom Left"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1860
+msgid "Bottom Right"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:890
+msgid "Button \"Shop now\" background color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:879
+msgid "Button \"Shop now\" color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:901
+msgid "Button \"Shop now\" font size(px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:860
+msgid "Button \"Shop now\" title"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:869
+msgid "Button \"Shop now\" URL"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1798
+msgid "Button \"SUBSCRIBE\" Rounded Corner (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:591
+msgid "Button 'No, thanks'"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1784
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/includes/3rd/elementor/shortcode-widget.php:58
+msgid "Button Background Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:642
+msgid "Button background color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/includes/3rd/elementor/shortcode-widget.php:69
+msgid "Button Border Radius"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:685
+msgid "Button Close"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/includes/3rd/elementor/shortcode-widget.php:47
+msgid "Button Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1708
+msgid "Button Subscribe & Email field"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1771
+msgid "Button Text Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1760
+msgid "Button Title"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:604
+msgid "Button title"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:630
+msgid "Button title color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/export-email.php:185
+msgid "Campaign"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:709
+msgid "Categories"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1119
+msgid "Center"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/export-email.php:206
+msgid "Choose campaign"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/export-email.php:182
+msgid "Choose type"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:721
+msgid "Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1161
+msgid ""
+"Combining 2 or more conditionals using || to show coupon box if 1 of the "
+"conditionals matched. e.g use "
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1039
+msgid "Contain"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:280
+msgid "Coupon"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:560
+msgid "Coupon amount"
+msgstr ""
+
+#. Name of the plugin
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:379
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:264
+msgid "Coupon Box for WooCommerce"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1829
+msgid "Coupon box icon"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1842
+msgid "Coupon box icon on mobile"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:474
+msgid "Coupon Box Rounded Corner (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:551
+msgid "Coupon code prefix"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:35
+msgid "Coupon value"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1040
+msgid "Cover"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:477
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:519
+msgid "Custom"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:2010
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:2025
+msgid "Custom CSS"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1078
+msgid "Dark"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/export-email.php:184
+msgid "Date"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:410
+msgid "Day"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:427
+msgid "Days"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:529
+msgid "Description"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:290
+msgid "Design"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:311
+msgid "Disable for logged-in users"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:538
+msgid "Discount type"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/includes/3rd/elementor/shortcode-widget.php:41
+msgid ""
+"Display subscription form everywhere even the user is logged or subscribed"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:664
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:680
+msgid "Do not show again"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:478
+msgid "Do not use coupon"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1475
+msgid "Dribbble User Name"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:262
+msgid "Edit Email"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1721
+msgid "Emai Input Rounded Corner (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:255
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:256
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:282
+msgid "Email"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:284
+msgid "Email API"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:33
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:441
+msgid "Email campaign"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:827
+msgid "Email content"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:816
+msgid "Email heading"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:484
+msgid "Email restriction"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:805
+msgid "Email subject"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:264
+msgid "Email Subscribe"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:297
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:304
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:394
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:922
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1031
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1130
+msgid "Enable"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:630
+msgid "Enable if the coupon cannot be used in conjunction with other coupons."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:580
+msgid ""
+"Enable if the coupon grants free shipping. A free shipping method must be "
+"enabled in your shipping zone and be set to require \"a valid free shipping "
+"coupon\" (see the"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:644
+msgid ""
+"Enable if the coupon should not apply to items on sale. Per-item coupons "
+"will only work if the item is not on sale. Per-cart coupons will only work "
+"if there are items in the cart that are not on sale."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:325
+msgid "Enable multi language"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:319
+msgid "Enable to hide coupon box for all logged-in users"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:492
+msgid "Enable to make coupon usable for received email only"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1123
+msgid "End"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/export-email.php:199
+msgid "End Date"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Engage customers while collecting their email address with a well-designed "
+"popup. Optionally reward them with coupons."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:361
+msgid "Enter min,max to set initial time random between min and max(seconds)."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:215
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:231
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/shortcode.php:246
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/templates/customize.php:63
+msgid "Enter this promo code at checkout page."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/shortcode.php:95
+msgid "Enter your email address"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/templates/basic.php:53
+msgid "Enter your email address(*)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1142
+msgid "Ex: !is_page(array(123,41,20))"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:739
+msgid "Exclude categories"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:680
+msgid "Exclude products"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:636
+msgid "Exclude sale items"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:476
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:498
+msgid "Existing coupon"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:589
+msgid "Expires after(days)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:36
+msgid "Expiry date"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/export-email.php:164
+msgid "Export Email"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/export-email.php:171
+msgid "Export email subscribe"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1315
+msgid "Facebook User Name"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:543
+msgid "Fixed cart discount"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:544
+msgid "Fixed product discount"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:812
+msgid "Follow Dribbble"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:757
+msgid "Follow Facebook"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:840
+msgid "Follow Google Plus"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:798
+msgid "Follow Instagram"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:868
+msgid "Follow Linkedin"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:784
+msgid "Follow Pinterest"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:826
+msgid "Follow Tumblr"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:770
+msgid "Follow Twitter"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1244
+msgid "Follow Us Text Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:854
+msgid "Follow VK"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:883
+msgid "Follow Youtube"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:662
+msgid "Footer Text"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:676
+msgid "Footer Text After Subscribing"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:580
+msgid "free shipping method"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:548
+msgid "GDPR checkbox"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:574
+msgid "GDPR message"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:429
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:277
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/includes/3rd/elementor/shortcode-widget.php:34
+msgid "General"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1091
+msgid "Get Google reCAPTCHA V2 Site and Secret key"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1095
+msgid "Get Google reCAPTCHA V3 Site and Secret key"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:34
+msgid "Given coupon"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1171
+msgid "Go to design now"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:417
+msgid "Google font"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1555
+msgid "Google Plus ID"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:286
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1085
+msgid "Guide"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:828
+msgid "Header"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:904
+msgid "Header Background Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:892
+msgid "Header Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:919
+msgid "Header Font Size(px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:937
+msgid "Header Space(px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:849
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:857
+msgid "Header Title"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:881
+msgid "Header Title After Subscribe"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:920
+msgid "Helpful tip: Set both Header Font size and Space to 0 to hide header."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:775
+msgid ""
+"Helpful tip: Set width to 0 to disable button close. Visitor can still close "
+"Coupon box without subscribing by clicking around or press Esc."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:941
+msgid "here"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:373
+msgid "Hide coupon box"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1123
+msgid "Home Page"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:409
+msgid "Hour"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://villatheme.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://villatheme.com/extensions/woo-coupon-box/"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:997
+msgid "Hubspot"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1926
+msgid "Icon background color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1340
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1380
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1420
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1460
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1500
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1540
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1580
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1620
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1659
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1698
+msgid "Icon Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1904
+msgid "Icon color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1855
+msgid "Icon position"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1890
+msgid "Icon wrap rounded corner(px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1258
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1874
+msgid "Icons size (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:380
+msgid ""
+"If a visitor subscribes when the coupon box is minimized, only field email "
+"is visible and required, all other fields are invisible even if you set them "
+"required fields."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:462
+msgid ""
+"If you set to give coupons for subscribers, beside sending coupon code via "
+"email address, enable this to print out the coupon code inside the coupon "
+"box after subscribing."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:622
+msgid "Individual use only"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1038
+msgid "Inherit"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1015
+msgid "inherit"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:355
+msgid "Initial time"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/includes/3rd/elementor/shortcode-widget.php:79
+msgid "Input Border Radius"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1435
+msgid "Instagram User Name"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1121
+msgid "Justify"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1007
+msgid "Klaviyo"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1118
+msgid "Left"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1144
+msgid "Let you control on which pages coupon box will appear using "
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1079
+msgid "Light"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:779
+msgid "Limit usage to X items"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1648
+msgid "Linkedin User Name"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/frontend/frontend.php:80
+msgid "lower than threshold 0.5 "
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:915
+msgid "Mailchimp"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:934
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:927
+msgid "Mailchimp for WordPress"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:947
+msgid "Mailchimp lists"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:610
+msgid "Maximum spend"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1074
+msgid "Message"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1087
+msgid "Message After Subscribing"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1135
+msgid "Message Color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1099
+msgid "Message Size (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1116
+msgid "Message Text Align (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:377
+msgid "Minimize to bottom bar-Pro version only"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:375
+msgid "Minimize to top bar-Pro version only"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:600
+msgid "Minimum spend"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:408
+msgid "Minute"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:414
+msgid "More input fields including name, mobile, birthday and gender"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:413
+msgid "More option when visitors close Coupon box"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:416
+msgid "More templates to choose"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:412
+msgid "More triggers to show coupon box"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:80
+msgid "never expires"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:386
+msgid "Never reminder if click 'No, thanks' button"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:261
+msgid "New Email"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/includes/3rd/elementor/shortcode-widget.php:43
+msgid "No"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:268
+msgid "No Email found in Trash."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:267
+msgid "No Email found."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1016
+msgid "no-repeat"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:726
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:756
+msgid "Note*: Not found category"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:667
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:696
+msgid "Note*: Not found product"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1277
+msgid "Open link in current tab"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1276
+msgid "Open link in new tab"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:519
+msgid "Overlay color"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1099
+msgid "page"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:266
+msgid "Parent Email:"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:542
+msgid "Percentage discount"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1395
+msgid "Pinterest User Name"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:850
+msgid "Place words in <span></span> to make it display in new line"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:266
+msgid "Please go to"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:927
+msgid "Please install "
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:491
+msgid "Popup Display Type"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1811
+msgid "Popup Icons"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:337
+msgid "Popup trigger"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1055
+msgid "Position of Background Image. Eg: 100% 100%, center..."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:807
+msgid "Position-x (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:819
+msgid "Position-y (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:419
+msgid "Premium support"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:398
+msgid "Premium version features"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:54
+msgid "Preview emails"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:652
+msgid "Products"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:349
+msgid "Random one of these above-Pro version only"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1047
+msgid "reCAPTCHA v2"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1048
+msgid "reCAPTCHA v3"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1017
+msgid "repeat"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1018
+msgid "repeat-x"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1019
+msgid "repeat-y"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1120
+msgid "Right"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:259
+msgctxt "role"
+msgid "Add New Subscribe"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1020
+msgid "round"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:791
+msgid "Rounded Corner (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:616
+msgid "Rounded corner (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1177
+msgid "Save"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:265
+msgid "Search Email"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:407
+msgid "Second"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1063
+msgid "Secret key"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:470
+msgid "Select coupon"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:444
+msgid "Select view mode to edit"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:987
+msgid "SendGrid"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1017
+msgid "Sendinblue"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:560
+msgid "Set checkbox state \"checked\" as default"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:580
+msgid "setting)."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:193
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:257
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:257
+msgid "Settings"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:137
+msgid "Show All"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:461
+msgid "Show coupon after subscribing."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:431
+msgid "Show subscription form again after "
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1054
+msgid "Site key"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:758
+msgid "Size (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1146
+msgid "Social Media"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1021
+msgid "space"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1737
+msgid "Space between email field & button SUBSCRIBE"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1122
+msgid "Start"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/export-email.php:192
+msgid "Start Date"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:400
+msgid "Subscription reminder if not subscribe"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:420
+msgid "Subscription reminder if subscribe"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1233
+msgid "Text Follow Social Network"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1073
+msgid "Theme"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:449
+msgid ""
+"This option is for you to see what it't like before and after visitors "
+"subscribe only"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:414
+msgid "Time to show subscription again if visitor does not subscribe"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:266
+msgid "to edit Email design"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1154
+msgid "to show only on WooCommerce category page"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1099
+msgid "to sign up for an API key pair with your Gmail account"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1857
+msgid "Top Left"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1858
+msgid "Top Right"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1515
+msgid "Tumblr User Name"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1132
+msgid "Turn on to show coupon box only on Home page"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:924
+msgid "Turn on to use MailChimp system"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1355
+msgid "Twitter User Name"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1843
+msgid "Uncheck this to hide the coupon box icon on mobile"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:475
+msgid "Unique coupon"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:329
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:981
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:991
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1001
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1011
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1021
+msgid "Upgrade This Feature"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:769
+msgid "Usage limit per coupon"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:790
+msgid "Usage limit per user"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1150
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1152
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1154
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1156
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1158
+msgid "Use "
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1042
+msgid "Version"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/admin.php:263
+msgid "View Email"
+msgstr ""
+
+#. Author of the plugin
+msgid "VillaTheme"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1595
+msgid "VKontakte User Name"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:963
+msgid "wcb_coupon_box_design_body"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1274
+msgid "When click on social icons"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:347
+msgid "When users are about to exit-Pro version only"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:345
+msgid "When users scroll-Pro version only"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:367
+msgid "When visitors close coupon box without subscribing"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:774
+msgid "Width (px)"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/includes/3rd/elementor/shortcode-widget.php:16
+msgid "Woo Coupon Box"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:266
+msgid "WooCommerce Emails settings"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:1145
+msgid "WP's conditional tags"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/includes/3rd/elementor/shortcode-widget.php:42
+msgid "Yes"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/settings.php:331
+msgid ""
+"You can use multi language if you are using WPML or Polylang. Make sure you "
+"had translated Coupon Box for WooCommerce in all your languages before using "
+"this feature."
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1476
+msgid "Your Dribbble User Name. Eg: villatheme"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1316
+msgid "Your Facebook User Name. Eg: villatheme"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1556
+msgid "Your Google Plus ID. Eg: +LarryPage"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1436
+msgid "Your Instagram User Name. Eg: villatheme"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1649
+msgid "Your Linkedin User Name. Eg: villatheme"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1396
+msgid "Your Pinterest User Name. Eg: villatheme"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1516
+msgid "Your Tumblr User Name. Eg: villatheme"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1356
+msgid "Your Twitter User Name. Eg: villatheme"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1596
+msgid "Your VKontakte User Name. Eg: villatheme"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1688
+msgid ""
+"Your Youtube full url. Eg: https://www.youtube."
+"com/channel/UCbCfnjbtBZIQfzLvXgNpbKw"
+msgstr ""
+
+#: D:/Git/villatheme-2019/FREE-VERSION/woo-coupon-box/woo-coupon-box/admin/design.php:1687
+msgid "Youtube URL"
+msgstr ""
