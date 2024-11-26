@@ -4,9 +4,9 @@ Donate link: http://www.villatheme.com/donate
 Tags: woocommerce coupon, coupon, coupon box, woocommerce subscribe, coupon subscribe
 Requires PHP: 7.0
 Requires at least: 5.0
-Tested up to: 6.6.2
+Tested up to: 6.7
 WC requires at least: 7.0
-WC tested up to: 9.3.1
+WC tested up to: 9.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -237,6 +237,9 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 3. Design with live preview
 
 == Changelog ==
+/**2.1.6 - 2024.11.26**/
+– Updated: Add setting descriptions
+
 /**2.1.5 - 2024.09.19**/
 – Fixed: Error when verify nonce when submit email
 

@@ -1,3 +1,6 @@
+/**2.1.6 - 2024.11.26**/
+– Updated: Add setting descriptions
+
 /**2.1.5 - 2024.09.19**/
 – Fixed: Error when verify nonce when submit email
 

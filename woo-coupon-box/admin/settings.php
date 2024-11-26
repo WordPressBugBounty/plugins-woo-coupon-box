@@ -345,6 +345,8 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                                 disabled><?php esc_html_e( 'When users scroll-Pro version only', 'woo-coupon-box' ) ?></option>
                                         <option value="exit"
                                                 disabled><?php esc_html_e( 'When users are about to exit-Pro version only', 'woo-coupon-box' ) ?></option>
+                                        <option value="button"
+                                                disabled><?php esc_html_e( 'Button is rendered via shortcode-Pro version only', 'woo-coupon-box' ) ?></option>
                                         <option value="random"
                                                 disabled><?php esc_html_e( 'Random one of these above-Pro version only', 'woo-coupon-box' ) ?></option>
                                     </select>
@@ -457,6 +459,29 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                         
                                         ?>
                                     </select>
+                                </td>
+                            </tr>
+
+                            <tr valign="top">
+                                <th scope="row">
+                                    <label><?php esc_html_e( 'Register account', 'woo-coupon-box' ) ?></label>
+                                </th>
+                                <td>
+                                    <a class="vi-ui button" target="_blank"
+                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                    <p>
+                                        <span class="description"><?php esc_html_e( 'Register account when customer subscribe.', 'woo-coupon-box' ); ?>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr valign="top">
+                                <th scope="row">
+                                    <label><?php esc_html_e( 'Restrict the email domains', 'woo-coupon-box' ) ?></label>
+                                </th>
+                                <td>
+                                    <a class="vi-ui button" target="_blank"
+                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                         </table>
@@ -584,6 +609,32 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                     </div>
                                 </td>
                             </tr>
+
+                            <tr valign="top">
+                                <th scope="row">
+                                    <label><?php esc_html_e( 'Expires type', 'woo-coupon-box' ) ?></label>
+                                </th>
+                                <td>
+                                    <a class="vi-ui button" target="_blank"
+                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                    <p>
+                                        <span class="description"><?php esc_html_e( 'After x days or Fixed date.', 'woo-coupon-box' ); ?>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr valign="top">
+                                <th scope="row">
+                                    <label><?php esc_html_e( 'Expires on date', 'woo-coupon-box' ) ?></label>
+                                </th>
+                                <td>
+                                    <a class="vi-ui button" target="_blank"
+                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                    <p>
+                                        <span class="description"><?php esc_html_e( 'Use with Fixed date type.', 'woo-coupon-box' ); ?>
+                                    </p>
+                                </td>
+                            </tr>
+
                             <tr valign="top" class="wcb-coupon-unique">
                                 <th scope="row">
                                     <label for="wcb_coupon_unique_date_expires"><?php esc_html_e( 'Expires after(days)', 'woo-coupon-box' ) ?></label>
@@ -800,6 +851,28 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                     </div>
                     <div class="vi-ui bottom attached tab segment wcb-container" data-tab="wcb-email">
                         <table class="form-table">
+
+                            <tr valign="top">
+                                <th scope="row">
+                                    <label><?php esc_html_e( 'Email template', 'woo-coupon-box' ) ?></label>
+                                </th>
+                                <td>
+                                    <a class="vi-ui button" target="_blank"
+                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                    <p class="description"><?php echo wp_kses_post( __( 'You can use <a href="https://1.envato.market/BZZv1" target="_blank">WooCommerce Email Template Customizer</a> or <a href="http://bit.ly/woo-email-template-customizer" target="_blank">Email Template Customizer for WooCommerce</a> to create and customize your own email template. If no email template is selected, below email will be used.', 'woo-coupon-box' ) ) ?></p>
+                                </td>
+                            </tr>
+                            <tr valign="top">
+                                <th scope="row">
+                                    <label><?php esc_html_e( 'Email template for register account', 'woo-coupon-box' ) ?></label>
+                                </th>
+                                <td>
+                                    <a class="vi-ui button" target="_blank"
+                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                    <p class="description"><?php echo wp_kses_post( __( 'You can use <a href="https://1.envato.market/BZZv1" target="_blank">WooCommerce Email Template Customizer</a> or <a href="http://bit.ly/woo-email-template-customizer" target="_blank">Email Template Customizer for WooCommerce</a> to create and customize your own email template. If no email template is selected, below email will be used.', 'woo-coupon-box' ) ) ?></p>
+                                </td>
+                            </tr>
+
                             <tr valign="top">
                                 <th scope="row">
                                     <label for="wcb_email_subject"><?php esc_html_e( 'Email subject', 'woo-coupon-box' ) ?></label>
@@ -830,6 +903,15 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                     <?php
                                     wp_editor( wp_unslash( $this->settings->get_params( 'wcb_email_content' ) ), 'wcb_email_content', array( 'editor_height' => 300 ) );
                                     ?>
+                                </td>
+                            </tr>
+                            <tr valign="top">
+                                <th scope="row">
+                                    <label><?php esc_html_e( 'New account content', 'woo-coupon-box' ) ?></label>
+                                </th>
+                                <td>
+                                    <a class="vi-ui button" target="_blank"
+                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                             <tr>
@@ -931,6 +1013,16 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                             </tr>
                             <tr valign="top">
                                 <th scope="row">
+                                    <label><?php esc_html_e( 'Mailchimp double optin', 'woo-coupon-box' ) ?></label>
+                                </th>
+                                <td>
+                                    <a class="vi-ui button" target="_blank"
+                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                    <p class="description"><?php esc_html_e( 'If enabled, a confirm subscription email will be sent to each subscriber for them to confirm that they subscribe to your list.', 'woo-coupon-box' ) ?></p>
+                                </td>
+                            </tr>
+                            <tr valign="top">
+                                <th scope="row">
                                     <label for="wcb_api"></label><?php esc_html_e( 'Mailchimp API Key', 'woo-coupon-box' ) ?>
                                 </th>
                                 <td>
@@ -1015,6 +1107,16 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                             <tr valign="top">
                                 <th scope="row">
                                     <label><?php esc_html_e( 'Sendinblue', 'woo-coupon-box' ) ?></label>
+                                </th>
+                                <td>
+                                    <a class="vi-ui button" target="_blank"
+                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                </td>
+                            </tr>
+
+                            <tr valign="top">
+                                <th scope="row">
+                                    <label><?php esc_html_e( 'GetResponse', 'woo-coupon-box' ) ?></label>
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
