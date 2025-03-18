@@ -367,6 +367,8 @@ class VI_WOO_COUPON_BOX_Frontend_Shortcode {
         $mailer          = WC()->mailer();
         $email           = new WC_Email();
         $content         = $email->style_inline( $mailer->wrap_message( $heading, $content ) );
+
+	    add_filter( 'viwec_disable_woocommerce_email_inline_style', '__return_false' );
         $email->send( $user_email, $subject, $content, $headers, array() );
     }
     

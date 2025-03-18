@@ -334,6 +334,18 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                             </tr>
                             <tr valign="top">
                                 <th scope="row">
+                                    <label for="ajax_endpoint_ajax"><?php esc_html_e( 'Ajax endpoint', 'woo-coupon-box' ) ?></label>
+                                </th>
+                                <td>
+                                    <a class="vi-ui button" target="_blank"
+                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                    <label for="ajax_endpoint_ajax">
+                                        <span class="description"><?php esc_html_e( 'Let you select Ajax or Rest API to register email.', 'woo-coupon-box' ) ?></span>
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr valign="top">
+                                <th scope="row">
                                     <label for="wcb_select_popup"><?php esc_html_e( 'Popup trigger', 'woo-coupon-box' ) ?></label>
                                 </th>
                                 <td>
@@ -610,7 +622,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </td>
                             </tr>
 
-                            <tr valign="top">
+                            <tr valign="top" class="wcb-coupon-unique">
                                 <th scope="row">
                                     <label><?php esc_html_e( 'Expires type', 'woo-coupon-box' ) ?></label>
                                 </th>
@@ -622,7 +634,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                     </p>
                                 </td>
                             </tr>
-                            <tr valign="top">
+                            <tr valign="top" class="wcb-coupon-unique">
                                 <th scope="row">
                                     <label><?php esc_html_e( 'Expires on date', 'woo-coupon-box' ) ?></label>
                                 </th>

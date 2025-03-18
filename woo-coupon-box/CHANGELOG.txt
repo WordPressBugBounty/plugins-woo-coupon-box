@@ -1,3 +1,6 @@
+/**2.1.7 - 2025.03.18**/
+– Updated: Change display condition of some setting field
+
 /**2.1.6 - 2024.11.26**/
 – Updated: Add setting descriptions
 

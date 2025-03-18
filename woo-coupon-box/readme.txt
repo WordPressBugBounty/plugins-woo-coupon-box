@@ -6,7 +6,7 @@ Requires PHP: 7.0
 Requires at least: 5.0
 Tested up to: 6.7
 WC requires at least: 7.0
-WC tested up to: 9.4
+WC tested up to: 9.7
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -220,7 +220,7 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 
 - [Project Page](http://villatheme.com)
 - [Documentation](http://docs.villatheme.com/woo-coupon-box/)
-- [Report Bugs/Issues](http://villatheme.com/supports)
+- [Report Bugs/Issues](https://villatheme.com/knowledge-base/security-is-our-priority/)
 - [Premium Extensions](http://villatheme.com)
 
 == Installation ==
@@ -237,6 +237,9 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 3. Design with live preview
 
 == Changelog ==
+/**2.1.7 - 2025.03.18**/
+– Updated: Change display condition of some setting field
+
 /**2.1.6 - 2024.11.26**/
 – Updated: Add setting descriptions
 

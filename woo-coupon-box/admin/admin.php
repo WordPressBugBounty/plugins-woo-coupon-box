@@ -62,7 +62,7 @@ class VI_WOO_COUPON_BOX_Admin_Admin {
                 if ( $meta ) {
                     if ( isset( $meta['campaign'] ) ) {
                         $campaign = get_term_by( 'id', $meta['campaign'], 'wcb_email_campaign' );
-                        echo esc_html( $campaign->name );
+                        echo $campaign ? esc_html( $campaign->name ) : '';
                     }
                 } else {
                     $term_ids = get_the_terms( $post_id, 'wcb_email_campaign' );

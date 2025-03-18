@@ -3,19 +3,19 @@
  * Plugin Name: Coupon Box for WooCommerce
  * Plugin URI: https://villatheme.com/extensions/woo-coupon-box/
  * Description: Engage customers while collecting their email address with a well-designed popup. Optionally reward them with coupons.
- * Version: 2.1.6
+ * Version: 2.1.7
  * Author: VillaTheme
  * Author URI: http://villatheme.com
  * License: GPLv2
  * License URI: http://www.gnu.org/licenses/gpl-2.0
  * Text Domain: woo-coupon-box
  * Domain Path: /languages
- * Copyright 2017-2024 VillaTheme.com. All rights reserved.
+ * Copyright 2017-2025 VillaTheme.com. All rights reserved.
  * Requires Plugins: woocommerce
  * Requires at least: 5.0
  * Tested up to: 6.7
  * WC requires at least: 7.0
- * WC tested up to: 9.4
+ * WC tested up to: 9.7
  * Requires PHP: 7.0
  */
 
@@ -35,7 +35,7 @@ if ( is_plugin_active( 'woocommerce-coupon-box/woocommerce-coupon-box.php' ) ) {
 	return;
 }
 
-define( 'VI_WOO_COUPON_BOX_VERSION', '2.1.6' );
+define( 'VI_WOO_COUPON_BOX_VERSION', '2.1.7' );
 
 class VI_WOO_COUPON_BOX_FREE {
 	public function __construct() {
@@ -56,7 +56,7 @@ class VI_WOO_COUPON_BOX_FREE {
 					[
 						'slug' => 'woocommerce',
 						'name' => 'WooCommerce',
-						'file' => 'woocommerce/woocommerce.php',
+						'defined_version' => 'WC_VERSION',
 						'version' => '7.0'
 					],
 				]
