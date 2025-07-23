@@ -438,10 +438,11 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
                 return;
             }
         }
+	    $src_min = WP_DEBUG ? '' : '.min';
         
         $poup_type = $this->settings->get_params( 'wcb_popup_type' );
         if ( $poup_type ) {
-            wp_enqueue_style( 'woo-coupon-box-popup-type-' . $poup_type, VI_WOO_COUPON_BOX_CSS . '/popup-effect/' . $poup_type . '.css', array(), VI_WOO_COUPON_BOX_VERSION );
+            wp_enqueue_style( 'woo-coupon-box-popup-type-' . $poup_type, VI_WOO_COUPON_BOX_CSS . '/popup-effect/' . $poup_type . $src_min . '.css', array(), VI_WOO_COUPON_BOX_VERSION );
         }
         // script
         
@@ -510,18 +511,18 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
             'wcb_never_reminder_enable'   => $this->settings->get_params( 'wcb_never_reminder_enable' ),
         );
         
-        wp_enqueue_style( 'wcb-weather-style', VI_WOO_COUPON_BOX_CSS . 'weather.css', array(), VI_WOO_COUPON_BOX_VERSION );
-        wp_enqueue_script( 'woo-coupon-box-script', VI_WOO_COUPON_BOX_JS . 'wcb.js', array(), VI_WOO_COUPON_BOX_VERSION, true );
+        wp_enqueue_style( 'wcb-weather-style', VI_WOO_COUPON_BOX_CSS . 'weather' . $src_min . '.css', array(), VI_WOO_COUPON_BOX_VERSION );
+        wp_enqueue_script( 'woo-coupon-box-script', VI_WOO_COUPON_BOX_JS . 'wcb' . $src_min . '.js', array(), VI_WOO_COUPON_BOX_VERSION, true );
         
         wp_localize_script( 'woo-coupon-box-script', 'wcb_params', $data );
         add_action( 'wp_footer', array( $this, 'wp_footer' ) );
         
-        wp_enqueue_style( 'woo-coupon-box-template-1', VI_WOO_COUPON_BOX_CSS . 'layout-1.css', array(), VI_WOO_COUPON_BOX_VERSION );
+        wp_enqueue_style( 'woo-coupon-box-template-1', VI_WOO_COUPON_BOX_CSS . 'layout-1' . $src_min . '.css', array(), VI_WOO_COUPON_BOX_VERSION );
         // style
-        wp_enqueue_style( 'woo-coupon-box-giftbox-icons', VI_WOO_COUPON_BOX_CSS . 'wcb_giftbox.css', array(), VI_WOO_COUPON_BOX_VERSION );
-        wp_enqueue_style( 'woo-coupon-box-social-icons', VI_WOO_COUPON_BOX_CSS . 'wcb_social_icons.css', array(), VI_WOO_COUPON_BOX_VERSION );
-        wp_enqueue_style( 'woo-coupon-box-close-icons', VI_WOO_COUPON_BOX_CSS . 'wcb_button_close_icons.css', array(), VI_WOO_COUPON_BOX_VERSION );
-        wp_enqueue_style( 'woo-coupon-box-basic', VI_WOO_COUPON_BOX_CSS . 'basic.css', array(), VI_WOO_COUPON_BOX_VERSION );
+        wp_enqueue_style( 'woo-coupon-box-giftbox-icons', VI_WOO_COUPON_BOX_CSS . 'wcb_giftbox' . $src_min . '.css', array(), VI_WOO_COUPON_BOX_VERSION );
+        wp_enqueue_style( 'woo-coupon-box-social-icons', VI_WOO_COUPON_BOX_CSS . 'wcb_social_icons' . $src_min . '.css', array(), VI_WOO_COUPON_BOX_VERSION );
+        wp_enqueue_style( 'woo-coupon-box-close-icons', VI_WOO_COUPON_BOX_CSS . 'wcb_button_close_icons' . $src_min . '.css', array(), VI_WOO_COUPON_BOX_VERSION );
+        wp_enqueue_style( 'woo-coupon-box-basic', VI_WOO_COUPON_BOX_CSS . 'basic' . $src_min . '.css', array(), VI_WOO_COUPON_BOX_VERSION );
         
         $css                         = '';
         $wcb_button_close_position_x = $this->settings->get_params( 'wcb_button_close_position_x' ) * ( - 1 );

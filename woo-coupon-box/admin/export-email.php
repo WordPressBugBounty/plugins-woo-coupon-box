@@ -231,6 +231,7 @@ class VI_WOO_COUPON_BOX_Admin_Export_Email {
         if ( $screen !== 'wcb_page_woo_coupon_box_export_email' ) {
             return;
         }
+	    $src_min = WP_DEBUG ? '' : '.min';
         
         // style
         wp_enqueue_style( 'woo-coupon-box-export-form', VI_WOO_COUPON_BOX_CSS . 'form.min.css', '', VI_WOO_COUPON_BOX_VERSION );
@@ -244,7 +245,7 @@ class VI_WOO_COUPON_BOX_Admin_Export_Email {
         wp_enqueue_script( 'woo-coupon-box-export-transition', VI_WOO_COUPON_BOX_JS . 'transition.min.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
         wp_enqueue_script( 'woo-coupon-box-export-dropdown', VI_WOO_COUPON_BOX_JS . 'dropdown.min.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
         wp_enqueue_script( 'woo-coupon-box-export-dependOn', VI_WOO_COUPON_BOX_JS . 'dependsOn.min.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
-        wp_enqueue_script( 'woo-coupon-box-export-admin', VI_WOO_COUPON_BOX_JS . 'wcb_export_date.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
+        wp_enqueue_script( 'woo-coupon-box-export-admin', VI_WOO_COUPON_BOX_JS . 'wcb_export_date' . $src_min . '.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
     }
     
 }

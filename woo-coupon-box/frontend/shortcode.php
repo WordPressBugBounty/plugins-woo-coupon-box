@@ -27,11 +27,32 @@ class VI_WOO_COUPON_BOX_Frontend_Shortcode {
     }
     
     public function shortcode_enqueue_script() {
-        if ( ! wp_script_is( 'wcbwidget-shortcode-style', 'registered' ) ) {
-            wp_register_style( 'wcbwidget-shortcode-style', VI_WOO_COUPON_BOX_CSS . 'shortcode-style.css', array(), VI_WOO_COUPON_BOX_VERSION );
+        if ( ! wp_style_is( 'wcbwidget-shortcode-style' ) ) {
+	        wp_enqueue_style( 'wcbwidget-shortcode-style', VI_WOO_COUPON_BOX_CSS . 'shortcode-style.css', array(), VI_WOO_COUPON_BOX_VERSION );
+	        /*button subscribe*/
+	        $bt_color            = $this->settings->get_params( 'wcb_button_text_color' );
+	        $bt_bg_color         = $this->settings->get_params( 'wcb_button_bg_color' );
+	        $bt_border_radius    = $this->settings->get_params( 'wcb_button_border_radius' );
+	        $input_border_radius = $this->settings->get_params( 'wcb_email_input_border_radius' );
+	        $css                 = '.woo-coupon-box-widget .wcbwidget-newsletter span.wcbwidget-button{';
+	        $css                 .= 'color:' . $bt_color . ';';
+	        $css                 .= 'background-color:' . $bt_bg_color . ';';
+	        $css                 .= 'border-radius:' . $bt_border_radius . 'px;';
+	        $css                 .= '}';
+	        $css                 .= '.woo-coupon-box-widget .wcbwidget-newsletter input.wcbwidget-email{border-radius:' . $input_border_radius . 'px;}';
+	        wp_add_inline_style( 'wcbwidget-shortcode-style', $css );
         }
-        if ( ! wp_script_is( 'wcbwidget-shortcode-script', 'registered' ) ) {
-            wp_register_script( 'wcbwidget-shortcode-script', VI_WOO_COUPON_BOX_JS . 'shortcode-script.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
+        if ( ! wp_script_is( 'wcbwidget-shortcode-script' ) ) {
+	        wp_enqueue_script( 'wcbwidget-shortcode-script', VI_WOO_COUPON_BOX_JS . 'shortcode-script.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
+	        $data = array(
+		        'ajaxurl'               => admin_url( 'admin-ajax.php' ),
+		        'wcb_current_time'      => time(),
+		        'wcb_show_coupon'       => $this->settings->get_params( 'wcb_show_coupon' ),
+		        'wcb_expire_subscribed' => $this->settings->get_params( 'wcb_expire_subscribed' ) * 86400,
+		        'wcb_gdpr_checkbox'     => $this->settings->get_params( 'wcb_gdpr_checkbox' ),
+		        '_woocouponbox_nonce'   => wp_create_nonce( '_woocouponbox_action_nonce' ),
+	        );
+	        wp_localize_script( 'wcbwidget-shortcode-script', 'wcb_widget_params', $data );
         }
     }
     
@@ -57,31 +78,31 @@ class VI_WOO_COUPON_BOX_Frontend_Shortcode {
             }
         }
         
-        if ( ! wp_script_is( 'wcbwidget-shortcode-script' ) ) {
-            wp_enqueue_script( 'wcbwidget-shortcode-script' );
-            $data = array(
-                'ajaxurl'               => admin_url( 'admin-ajax.php' ),
-                'wcb_current_time'      => time(),
-                'wcb_show_coupon'       => $this->settings->get_params( 'wcb_show_coupon' ),
-                'wcb_expire_subscribed' => $this->settings->get_params( 'wcb_expire_subscribed' ) * 86400,
-                'wcb_gdpr_checkbox'     => $this->settings->get_params( 'wcb_gdpr_checkbox' ),
-                '_woocouponbox_nonce'   => wp_create_nonce( '_woocouponbox_action_nonce' ),
-            );
-            wp_localize_script( 'wcbwidget-shortcode-script', 'wcb_widget_params', $data );
-            wp_enqueue_style( 'wcbwidget-shortcode-style' );
-            /*button subscribe*/
-            $bt_color            = $this->settings->get_params( 'wcb_button_text_color' );
-            $bt_bg_color         = $this->settings->get_params( 'wcb_button_bg_color' );
-            $bt_border_radius    = $this->settings->get_params( 'wcb_button_border_radius' );
-            $input_border_radius = $this->settings->get_params( 'wcb_email_input_border_radius' );
-            $css                 = '.woo-coupon-box-widget .wcbwidget-newsletter span.wcbwidget-button{';
-            $css                 .= 'color:' . $bt_color . ';';
-            $css                 .= 'background-color:' . $bt_bg_color . ';';
-            $css                 .= 'border-radius:' . $bt_border_radius . 'px;';
-            $css                 .= '}';
-            $css                 .= '.woo-coupon-box-widget .wcbwidget-newsletter input.wcbwidget-email{border-radius:' . $input_border_radius . 'px;}';
-            wp_add_inline_style( 'wcbwidget-shortcode-style', $css );
-        }
+//        if ( ! wp_script_is( 'wcbwidget-shortcode-script' ) ) {
+//            wp_enqueue_script( 'wcbwidget-shortcode-script' );
+//            $data = array(
+//                'ajaxurl'               => admin_url( 'admin-ajax.php' ),
+//                'wcb_current_time'      => time(),
+//                'wcb_show_coupon'       => $this->settings->get_params( 'wcb_show_coupon' ),
+//                'wcb_expire_subscribed' => $this->settings->get_params( 'wcb_expire_subscribed' ) * 86400,
+//                'wcb_gdpr_checkbox'     => $this->settings->get_params( 'wcb_gdpr_checkbox' ),
+//                '_woocouponbox_nonce'   => wp_create_nonce( '_woocouponbox_action_nonce' ),
+//            );
+//            wp_localize_script( 'wcbwidget-shortcode-script', 'wcb_widget_params', $data );
+//            wp_enqueue_style( 'wcbwidget-shortcode-style' );
+//            /*button subscribe*/
+//            $bt_color            = $this->settings->get_params( 'wcb_button_text_color' );
+//            $bt_bg_color         = $this->settings->get_params( 'wcb_button_bg_color' );
+//            $bt_border_radius    = $this->settings->get_params( 'wcb_button_border_radius' );
+//            $input_border_radius = $this->settings->get_params( 'wcb_email_input_border_radius' );
+//            $css                 = '.woo-coupon-box-widget .wcbwidget-newsletter span.wcbwidget-button{';
+//            $css                 .= 'color:' . $bt_color . ';';
+//            $css                 .= 'background-color:' . $bt_bg_color . ';';
+//            $css                 .= 'border-radius:' . $bt_border_radius . 'px;';
+//            $css                 .= '}';
+//            $css                 .= '.woo-coupon-box-widget .wcbwidget-newsletter input.wcbwidget-email{border-radius:' . $input_border_radius . 'px;}';
+//            wp_add_inline_style( 'wcbwidget-shortcode-style', $css );
+//        }
         ob_start();
         ?>
         <div class="woo-coupon-box-widget woo-coupon-box-widget-type-<?php echo esc_attr( $type ); ?>">

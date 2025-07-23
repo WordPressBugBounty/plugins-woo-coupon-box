@@ -1,3 +1,7 @@
+/**2.1.8 - 2025.07.23**/
+- Updated: Minify some source code
+– Updated: Add setting descriptions
+
 /**2.1.7 - 2025.03.18**/
 – Updated: Change display condition of some setting field
 

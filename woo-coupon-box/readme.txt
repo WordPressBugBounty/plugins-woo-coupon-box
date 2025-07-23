@@ -4,9 +4,9 @@ Donate link: http://www.villatheme.com/donate
 Tags: woocommerce coupon, coupon, coupon box, woocommerce subscribe, coupon subscribe
 Requires PHP: 7.0
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.8
 WC requires at least: 7.0
-WC tested up to: 9.7
+WC tested up to: 10.0
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,7 +25,7 @@ Coupon Box for WooCommerce is a WooCommerce and WordPress email subscription plu
 
 >[Try the Demo](http://new2new.com/?item=woo-coupon-box "Demo Coupon Box for WooCommerce") | [Documents](http://docs.villatheme.com/?item=woo-coupon-box "Documents") | [Premium version](https://1.envato.market/DzJ12) | [Facebook group](https://www.facebook.com/groups/villatheme "VillaTheme")
 
-[youtube https://youtu.be/ihf6sxHoJd8]
+[youtube https://youtu.be/YftUCN9bzKw]
 
 ###Important Notice:
 
@@ -112,6 +112,8 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 - **Premium Support**: We response to all support topics within 24 hours on weekday (a bit longer over weekend)
 
 ### MAY BE YOU NEED
+
+[VARGAL - Additional Variation Gallery for Woo](https://wordpress.org/plugins/vargal-additional-variation-gallery-for-woo)
 
 [AFFI – Affiliate Marketing for WooCommerce](https://wordpress.org/plugins/affi-affiliate-marketing-for-woo)
 
@@ -249,11 +251,16 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 == Frequently Asked Questions ==
 
 == Screenshots ==
-1. Coupon settings
-2. Email settings
-3. Design with live preview
+1. Create email campaign
+2. Design coupon box
+3. Display coupon box on front end
+4. Subscribed email list
 
 == Changelog ==
+/**2.1.8 - 2025.07.23**/
+- Updated: Minify some source code
+– Updated: Add setting descriptions
+
 /**2.1.7 - 2025.03.18**/
 – Updated: Change display condition of some setting field
 
