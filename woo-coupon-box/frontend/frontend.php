@@ -602,6 +602,7 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
         $css .= $this->generate_css( '.wcb-coupon-box .wcb-sharing-container .wcb-list-socials .wcb-vkontakte-follow .wcb-social-icon', 'color', 'wcb_social_icons_vkontakte_color', '', '' );
         $css .= $this->generate_css( '.wcb-coupon-box .wcb-sharing-container .wcb-list-socials .wcb-linkedin-follow .wcb-social-icon', 'color', 'wcb_social_icons_linkedin_color', '', '' );
         $css .= $this->generate_css( '.wcb-coupon-box .wcb-sharing-container .wcb-list-socials .wcb-youtube-follow .wcb-social-icon', 'color', 'wcb_social_icons_youtube_color', '', '' );
+        $css .= $this->generate_css( '.wcb-coupon-box .wcb-sharing-container .wcb-list-socials .wcb-tiktok-follow .wcb-social-icon', 'color', 'wcb_social_icons_tiktok_color', '', '' );
         $css .= $this->settings->get_params( 'wcb_custom_css' );
         /*popup icon*/
         $css .= '.wcb-coupon-box-small-icon{';
@@ -735,7 +736,8 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
         $vkontakte_url = $this->settings->get_params( 'wcb_social_icons_vkontakte_url' );
         $linkedin_url  = $this->settings->get_params( 'wcb_social_icons_linkedin_url' );
         $youtube_url   = $this->settings->get_params( 'wcb_social_icons_youtube_url' );
-        
+        $tiktok_url   = $this->settings->get_params( 'wcb_social_icons_tiktok_url' );
+
         $facebook_select  = $this->settings->get_params( 'wcb_social_icons_facebook_select' );
         $twitter_select   = $this->settings->get_params( 'wcb_social_icons_twitter_select' );
         $pinterest_select = $this->settings->get_params( 'wcb_social_icons_pinterest_select' );
@@ -746,7 +748,8 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
         $vkontakte_select = $this->settings->get_params( 'wcb_social_icons_vkontakte_select' );
         $linkedin_select  = $this->settings->get_params( 'wcb_social_icons_linkedin_select' );
         $youtube_select   = $this->settings->get_params( 'wcb_social_icons_youtube_select' );
-        
+        $tiktok_select   = $this->settings->get_params( 'wcb_social_icons_tiktok_select' );
+
         $html = '<ul class="wcb-list-socials wcb-list-unstyled" id="wcb-sharing-accounts">';
         
         if ( $facebook_url ) {
@@ -888,6 +891,21 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
             <?php
             $youtube_html = ob_get_clean();
             $html         .= '<li class="wcb-youtube-follow">' . $youtube_html . '</li>';
+        }
+
+        if ( $tiktok_url ) {
+            ob_start();
+            ?>
+            <a <?php if ( $link_target == '_blank' )
+                echo esc_attr( 'target=_blank' ) ?>
+                href="<?php echo esc_url_raw( $tiktok_url ) ?>"
+                class="wcb-social-button wcb-tiktok"
+                title="<?php esc_html_e( 'Follow Youtube', 'woo-coupon-box' ) ?>">
+                <span class="wcb-social-icon <?php echo esc_attr( $tiktok_select ) ?>"> </span>
+            </a>
+            <?php
+            $tiktok_html = ob_get_clean();
+            $html         .= '<li class="wcb-tiktok-follow">' . $tiktok_html . '</li>';
         }
         
         $html = apply_filters( 'wcb_after_socials_html', $html );

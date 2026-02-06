@@ -105,6 +105,7 @@ class VI_WOO_COUPON_BOX_Admin_Design {
         $css .= $this->generate_css( '.wcb-coupon-box .wcb-sharing-container .wcb-list-socials .wcb-vkontakte-follow .wcb-social-icon', 'color', 'wcb_social_icons_vkontakte_color', '', '' );
         $css .= $this->generate_css( '.wcb-coupon-box .wcb-sharing-container .wcb-list-socials .wcb-linkedin-follow .wcb-social-icon', 'color', 'wcb_social_icons_linkedin_color', '', '' );
         $css .= $this->generate_css( '.wcb-coupon-box .wcb-sharing-container .wcb-list-socials .wcb-youtube-follow .wcb-social-icon', 'color', 'wcb_social_icons_youtube_color', '', '' );
+        $css .= $this->generate_css( '.wcb-coupon-box .wcb-sharing-container .wcb-list-socials .wcb-tiktok-follow .wcb-social-icon', 'color', 'wcb_social_icons_tiktok_color', '', '' );
         wp_enqueue_style( 'woo-coupon-box-layout-1', VI_WOO_COUPON_BOX_CSS . 'layout-1.css', array(), VI_WOO_COUPON_BOX_VERSION );
         
         $css .= '.wcb-coupon-box .wcb-content-wrap .wcb-md-content{border-radius:' . $this->settings->get_params( 'wcb_border_radius' ) . 'px;}';
@@ -229,7 +230,8 @@ class VI_WOO_COUPON_BOX_Admin_Design {
         $vkontakte_url = $this->settings->get_params( 'wcb_social_icons_vkontakte_url' );
         $linkedin_url  = $this->settings->get_params( 'wcb_social_icons_linkedin_url' );
         $youtube_url   = $this->settings->get_params( 'wcb_social_icons_youtube_url' );
-        
+        $tiktok_url   = $this->settings->get_params( 'wcb_social_icons_tiktok_url' );
+
         $facebook_select  = $this->settings->get_params( 'wcb_social_icons_facebook_select' );
         $twitter_select   = $this->settings->get_params( 'wcb_social_icons_twitter_select' );
         $pinterest_select = $this->settings->get_params( 'wcb_social_icons_pinterest_select' );
@@ -240,7 +242,8 @@ class VI_WOO_COUPON_BOX_Admin_Design {
         $vkontakte_select = $this->settings->get_params( 'wcb_social_icons_vkontakte_select' );
         $linkedin_select  = $this->settings->get_params( 'wcb_social_icons_linkedin_select' );
         $youtube_select   = $this->settings->get_params( 'wcb_social_icons_youtube_select' );
-        
+        $tiktok_select   = $this->settings->get_params( 'wcb_social_icons_tiktok_select' );
+
         $html = '<ul class="wcb-list-socials wcb-list-unstyled" id="wcb-sharing-accounts">';
         
         ob_start(); ?>
@@ -342,6 +345,16 @@ class VI_WOO_COUPON_BOX_Admin_Design {
         <?php
         $youtube_html = ob_get_clean();
         $html         .= '<li style="' . ( ! $youtube_url ? 'display:none' : '' ) . '" class="wcb-youtube-follow">' . $youtube_html . '</li>';
+
+        ob_start(); ?>
+        <a <?php if ( $link_target == '_blank' )
+            echo esc_attr( 'target=_blank' ) ?> href="<?php echo esc_url_raw( $tiktok_url ) ?>"
+                                                class="wcb-social-button wcb-tiktok">
+            <span class="wcb-social-icon <?php echo esc_attr( $tiktok_select ) ?>"> </span>
+        </a>
+        <?php
+        $tiktok_html = ob_get_clean();
+        $html         .= '<li style="' . ( ! $tiktok_url ? 'display:none' : '' ) . '" class="wcb-tiktok-follow">' . $tiktok_html . '</li>';
         
         $html = apply_filters( 'wcb_after_socials_html', $html );
         $html .= '</ul>';
@@ -1156,6 +1169,7 @@ class VI_WOO_COUPON_BOX_Admin_Design {
             "wcb_social_icons-facebook-app-logo",
             "wcb_social_icons-facebook-logo",
             "wcb_social_icons-internet",
+	        "wcb_social_icons-twitter-new",
             "wcb_social_icons-twitter-logo-button",
             "wcb_social_icons-twitter-logo-silhouette",
             "wcb_social_icons-twitter",
@@ -1214,6 +1228,13 @@ class VI_WOO_COUPON_BOX_Admin_Design {
             "wcb_social_icons-youtube-logotype",
             "wcb_social_icons-youtube-logo",
             "wcb_social_icons-youtube-logo-1",
+	        "wcb_social_icons-icbaseline-tiktok",
+	        "wcb_social_icons-ixtiktok-logo",
+	        "wcb_social_icons-lineiconstiktok-alt",
+	        "wcb_social_icons-magetiktok-circle",
+	        "wcb_social_icons-ritiktok-line",
+	        "wcb_social_icons-tablerbrand-tiktok-filled",
+	        "wcb_social_icons-tiktok",
         );
         
         $wp_customize->selective_refresh->add_partial( 'woo_coupon_box_params[wcb_follow_us]', array(
@@ -1280,28 +1301,30 @@ class VI_WOO_COUPON_BOX_Admin_Design {
                 '_self'  => esc_html__( 'Open link in current tab', 'woo-coupon-box' ),
             ),
         ) );
-        $facebook = $twitter = $pinterest = $instagram = $dribbble = $tumblr = $google = $vkontakte = $linkedin = $youtube = array();
+        $facebook = $twitter = $pinterest = $instagram = $dribbble = $tumblr = $google = $vkontakte = $linkedin = $youtube = $tiktok = array();
         for ( $i = 0; $i < sizeof( $icons ); $i ++ ) {
             if ( $i < 6 ) {
                 $facebook[ $icons[ $i ] ] = $icons[ $i ];
-            } elseif ( $i < 12 ) {
+            } elseif ( $i < 13 ) {
                 $twitter[ $icons[ $i ] ] = $icons[ $i ];
-            } elseif ( $i < 19 ) {
+            } elseif ( $i < 20 ) {
                 $pinterest[ $icons[ $i ] ] = $icons[ $i ];
-            } elseif ( $i < 27 ) {
+            } elseif ( $i < 28 ) {
                 $instagram[ $icons[ $i ] ] = $icons[ $i ];
-            } elseif ( $i < 33 ) {
+            } elseif ( $i < 34 ) {
                 $dribbble[ $icons[ $i ] ] = $icons[ $i ];
-            } elseif ( $i < 39 ) {
+            } elseif ( $i < 40 ) {
                 $tumblr[ $icons[ $i ] ] = $icons[ $i ];
-            } elseif ( $i < 46 ) {
+            } elseif ( $i < 47 ) {
                 $google[ $icons[ $i ] ] = $icons[ $i ];
-            } elseif ( $i < 52 ) {
+            } elseif ( $i < 53 ) {
                 $vkontakte[ $icons[ $i ] ] = $icons[ $i ];
-            } elseif ( $i < 58 ) {
+            } elseif ( $i < 59 ) {
                 $linkedin[ $icons[ $i ] ] = $icons[ $i ];
+            } elseif ( $i < 65 ) {
+	            $youtube[ $icons[ $i ] ] = $icons[ $i ];
             } else {
-                $youtube[ $icons[ $i ] ] = $icons[ $i ];
+                $tiktok[ $icons[ $i ] ] = $icons[ $i ];
             }
         }
         /*facebook*/
@@ -1625,7 +1648,19 @@ class VI_WOO_COUPON_BOX_Admin_Design {
         ) ) );
         
         /*linkedin*/
-        
+	    $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_linkedin_url]', array(
+		    'type'              => 'option',
+		    'capability'        => 'manage_options',
+		    'sanitize_callback' => 'sanitize_text_field',
+		    'default'           => $this->settings->get_default( 'wcb_social_icons_linkedin_url' ),
+		    'transport'         => 'postMessage',
+	    ) );
+	    $wp_customize->add_control( 'woo_coupon_box_params[wcb_social_icons_linkedin_url]', array(
+		    'type'        => 'url',
+		    'section'     => 'wcb_coupon_box_design_social',
+		    'label'       => esc_html__( 'Linkedin User Name', 'woo-coupon-box' ),
+		    'description' => esc_html__( 'Your Linkedin User Name. Eg: villatheme', 'woo-coupon-box' ),
+	    ) );
         $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_linkedin_select]', array(
             'default'           => $this->settings->get_default( 'wcb_social_icons_linkedin_select' ),
             'type'              => 'option',
@@ -1638,19 +1673,6 @@ class VI_WOO_COUPON_BOX_Admin_Design {
             'section' => 'wcb_coupon_box_design_social',
             'choices' => $linkedin,
         ) ) );
-        $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_linkedin_url]', array(
-            'type'              => 'option',
-            'capability'        => 'manage_options',
-            'sanitize_callback' => 'sanitize_text_field',
-            'default'           => $this->settings->get_default( 'wcb_social_icons_linkedin_url' ),
-            'transport'         => 'postMessage',
-        ) );
-        $wp_customize->add_control( 'woo_coupon_box_params[wcb_social_icons_linkedin_url]', array(
-            'type'        => 'url',
-            'section'     => 'wcb_coupon_box_design_social',
-            'label'       => esc_html__( 'Linkedin User Name', 'woo-coupon-box' ),
-            'description' => esc_html__( 'Your Linkedin User Name. Eg: villatheme', 'woo-coupon-box' ),
-        ) );
         $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_linkedin_color]', array(
             'default'           => $this->settings->get_default( 'wcb_social_icons_linkedin_color' ),
             'type'              => 'option',
@@ -1664,7 +1686,19 @@ class VI_WOO_COUPON_BOX_Admin_Design {
         ) ) );
         
         /*youtube*/
-        
+	    $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_youtube_url]', array(
+		    'type'              => 'option',
+		    'capability'        => 'manage_options',
+		    'sanitize_callback' => 'sanitize_text_field',
+		    'default'           => $this->settings->get_default( 'wcb_social_icons_youtube_url' ),
+		    'transport'         => 'postMessage',
+	    ) );
+	    $wp_customize->add_control( 'woo_coupon_box_params[wcb_social_icons_youtube_url]', array(
+		    'type'        => 'url',
+		    'section'     => 'wcb_coupon_box_design_social',
+		    'label'       => esc_html__( 'Youtube URL', 'woo-coupon-box' ),
+		    'description' => esc_html__( 'Your Youtube full url. Eg: https://www.youtube.com/channel/UCbCfnjbtBZIQfzLvXgNpbKw', 'woo-coupon-box' ),
+	    ) );
         $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_youtube_select]', array(
             'default'           => $this->settings->get_default( 'wcb_social_icons_youtube_select' ),
             'type'              => 'option',
@@ -1677,19 +1711,6 @@ class VI_WOO_COUPON_BOX_Admin_Design {
             'section' => 'wcb_coupon_box_design_social',
             'choices' => $youtube,
         ) ) );
-        $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_youtube_url]', array(
-            'type'              => 'option',
-            'capability'        => 'manage_options',
-            'sanitize_callback' => 'sanitize_text_field',
-            'default'           => $this->settings->get_default( 'wcb_social_icons_youtube_url' ),
-            'transport'         => 'postMessage',
-        ) );
-        $wp_customize->add_control( 'woo_coupon_box_params[wcb_social_icons_youtube_url]', array(
-            'type'        => 'url',
-            'section'     => 'wcb_coupon_box_design_social',
-            'label'       => esc_html__( 'Youtube URL', 'woo-coupon-box' ),
-            'description' => esc_html__( 'Your Youtube full url. Eg: https://www.youtube.com/channel/UCbCfnjbtBZIQfzLvXgNpbKw', 'woo-coupon-box' ),
-        ) );
         $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_youtube_color]', array(
             'default'           => $this->settings->get_default( 'wcb_social_icons_youtube_color' ),
             'type'              => 'option',
@@ -1698,6 +1719,44 @@ class VI_WOO_COUPON_BOX_Admin_Design {
             'transport'         => 'postMessage',
         ) );
         $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'woo_coupon_box_params[wcb_social_icons_youtube_color]', array(
+            'label'   => esc_html__( 'Icon Color', 'woo-coupon-box' ),
+            'section' => 'wcb_coupon_box_design_social',
+        ) ) );
+
+        /*tiktok*/
+	    $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_tiktok_url]', array(
+		    'type'              => 'option',
+		    'capability'        => 'manage_options',
+		    'sanitize_callback' => 'sanitize_text_field',
+		    'default'           => $this->settings->get_default( 'wcb_social_icons_tiktok_url' ),
+		    'transport'         => 'postMessage',
+	    ) );
+	    $wp_customize->add_control( 'woo_coupon_box_params[wcb_social_icons_tiktok_url]', array(
+		    'type'        => 'url',
+		    'section'     => 'wcb_coupon_box_design_social',
+		    'label'       => esc_html__( 'TikTok URL', 'woo-coupon-box' ),
+		    'description' => esc_html__( 'Your TikTok url. Eg: https://www.tiktok.com/@username', 'woo-coupon-box' ),
+	    ) );
+        $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_tiktok_select]', array(
+            'default'           => $this->settings->get_default( 'wcb_social_icons_tiktok_select' ),
+            'type'              => 'option',
+            'capability'        => 'manage_options',
+            'sanitize_callback' => 'sanitize_text_field',
+            'transport'         => 'postMessage',
+        ) );
+        $wp_customize->add_control( new WOO_COUPON_BOX_Radio_Icons_Control( $wp_customize, 'woo_coupon_box_params[wcb_social_icons_tiktok_select]', array(
+            'label'   => 'Icons',
+            'section' => 'wcb_coupon_box_design_social',
+            'choices' => $tiktok,
+        ) ) );
+        $wp_customize->add_setting( 'woo_coupon_box_params[wcb_social_icons_tiktok_color]', array(
+            'default'           => $this->settings->get_default( 'wcb_social_icons_tiktok_color' ),
+            'type'              => 'option',
+            'capability'        => 'manage_options',
+            'sanitize_callback' => 'sanitize_text_field',
+            'transport'         => 'postMessage',
+        ) );
+        $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'woo_coupon_box_params[wcb_social_icons_tiktok_color]', array(
             'label'   => esc_html__( 'Icon Color', 'woo-coupon-box' ),
             'section' => 'wcb_coupon_box_design_social',
         ) ) );

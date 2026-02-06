@@ -4,9 +4,9 @@ Donate link: http://www.villatheme.com/donate
 Tags: woocommerce coupon, coupon, coupon box, woocommerce subscribe, coupon subscribe
 Requires PHP: 7.0
 Requires at least: 5.0
-Tested up to: 6.8
+Tested up to: 6.9
 WC requires at least: 7.0
-WC tested up to: 10.0
+WC tested up to: 10.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -112,6 +112,8 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 - **Premium Support**: We response to all support topics within 24 hours on weekday (a bit longer over weekend)
 
 ### MAY BE YOU NEED
+
+[VISeek – Easy Custom Search](https://wordpress.org/plugins/viseek-easy-custom-search)
 
 [VARGAL - Additional Variation Gallery for Woo](https://wordpress.org/plugins/vargal-additional-variation-gallery-for-woo)
 
@@ -257,6 +259,14 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 4. Subscribed email list
 
 == Changelog ==
+/**2.1.10 - 2026.01.20**/
+– Updated: Check compatible with WordPress 6.9 & WooCommerce 10.4
+- Updated: Updated support file
+
+/**2.1.9 - 2025.10.18**/
+- Updated: Rearrange customize social settings
+- Update: Add TikTok social media
+
 /**2.1.8 - 2025.07.23**/
 - Updated: Minify some source code
 – Updated: Add setting descriptions

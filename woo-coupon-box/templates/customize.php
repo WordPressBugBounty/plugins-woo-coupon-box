@@ -30,7 +30,7 @@ $wcb_no_thank_button_title       = $settings->get_params( 'wcb_no_thank_button_t
         <span class="wcb-md-close <?php echo esc_attr( $wcb_button_close ) ?>"> </span>
         <div class="wcb-md-content">
             <div class="wcb-modal-header wcb-view-before-subscribe" style="<?php echo $wcb_view_mode == 2 ? 'display:none;' : ''; ?>">
-                <span class="wcb-coupon-box-title"><?php echo esc_html( $wbs_title ); ?></span>
+                <span class="wcb-coupon-box-title"><?php echo wp_kses_post( $wbs_title ); ?></span>
             </div>
             <div class="wcb-modal-header wcb-view-after-subscribe" style="<?php echo $wcb_view_mode == 1 ? 'display:none;' : ''; ?>">
                 <span class="wcb-coupon-box-title"><?php echo wp_kses_post( $wcb_title_after_subscribing ); ?></span>

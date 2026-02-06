@@ -1,3 +1,11 @@
+/**2.1.10 - 2026.01.20**/
+– Updated: Check compatible with WordPress 6.9 & WooCommerce 10.4
+- Updated: Updated support file
+
+/**2.1.9 - 2025.10.18**/
+- Updated: Rearrange customize social settings
+- Update: Add TikTok social media
+
 /**2.1.8 - 2025.07.23**/
 - Updated: Minify some source code
 – Updated: Add setting descriptions

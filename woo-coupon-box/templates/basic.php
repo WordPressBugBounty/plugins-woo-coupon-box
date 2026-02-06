@@ -27,7 +27,7 @@ $wcb_no_thank_button_title  = $settings->get_params( 'wcb_no_thank_button_title'
         <span class="wcb-md-close <?php echo esc_attr( $wcb_button_close ) ?>"> </span>
         <div class="wcb-md-content">
             <div class="wcb-modal-header">
-                <span class="wcb-coupon-box-title"><?php echo esc_html($wbs_title); ?></span>
+                <span class="wcb-coupon-box-title"><?php echo wp_kses_post($wbs_title); ?></span>
             </div>
             <div class="wcb-modal-body">
                 <div class="wcb-coupon-message">
@@ -63,7 +63,7 @@ $wcb_no_thank_button_title  = $settings->get_params( 'wcb_no_thank_button_title'
 						if ( $wcb_gdpr_checkbox ) {
 							?>
                             <div class="wcb-gdpr-field">
-                                <input type="checkbox" name="wcb_gdpr_checkbox"
+                                <input type="checkbox" name="wcb_gdpr_checkbox" aria-label="<?php esc_html_e( 'GDPR confirm', 'woo-coupon-box' ) ?>"
                                        class="wcb-gdpr-checkbox" <?php if ( $wcb_gdpr_checkbox_checked ) {
 									echo esc_attr( 'checked' );
 								} ?>>
