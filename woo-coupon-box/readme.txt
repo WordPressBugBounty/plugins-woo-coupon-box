@@ -6,7 +6,7 @@ Requires PHP: 7.0
 Requires at least: 5.0
 Tested up to: 6.9
 WC requires at least: 7.0
-WC tested up to: 10.4
+WC tested up to: 10.5
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -259,6 +259,9 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 4. Subscribed email list
 
 == Changelog ==
+/**2.1.11 - 2026.03.06**/
+- Updated: Only specific conditional tags are supported.
+
 /**2.1.10 - 2026.01.20**/
 – Updated: Check compatible with WordPress 6.9 & WooCommerce 10.4
 - Updated: Updated support file
