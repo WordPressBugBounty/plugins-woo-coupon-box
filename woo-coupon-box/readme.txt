@@ -4,9 +4,9 @@ Donate link: http://www.villatheme.com/donate
 Tags: woocommerce coupon, coupon, coupon box, woocommerce subscribe, coupon subscribe
 Requires PHP: 7.0
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0
 WC requires at least: 7.0
-WC tested up to: 10.5
+WC tested up to: 10.8
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -15,7 +15,7 @@ Engage customers while collecting their email address with a well-designed popup
 
 == Description ==
 
-Coupon Box for WooCommerce is a WooCommerce and WordPress email subscription plugin that helps you collect emails from your visitor. Don’t waste your traffic, Email marketing is an old-but-gold marketing channel. The WooCommerce and WordPress email subscription plugins help you turn traffic into email subscribers. The WooCommerce and WordPress email subscription plugins display a subscribe email pop-up to new visitors, offering coupons and asking them to subscribe email, generating and sending a coupon code to the subscribed email address. You can check the subscribed email addresses in the plugin back-end or sync with your email marketing platforms through API.
+Coupon Box for WooCommerce is a WooCommerce and WordPress email subscription plugin that helps you collect emails from your visitor. Don't waste your traffic, Email marketing is an old-but-gold marketing channel. The WooCommerce and WordPress email subscription plugins help you turn traffic into email subscribers. The WooCommerce and WordPress email subscription plugins display a subscribe email pop-up to new visitors, offering coupons and asking them to subscribe email, generating and sending a coupon code to the subscribed email address. You can check the subscribed email addresses in the plugin back-end or sync with your email marketing platforms through API.
 
 - Display Coupon Box pop-up, allowing users to subscribe to their email.
 - Sync email with MailChimp, Active Campaign, SendGrid email platforms.
@@ -31,7 +31,7 @@ Coupon Box for WooCommerce is a WooCommerce and WordPress email subscription plu
 
 - Plugin works based on WooCommerce plugin.
 
-- To handle WP’s Conditional Tags, this plugin uses **eval()** which is very dangerous because it allows execution of arbitrary PHP code. Therefore, please only fill this field with proper conditional tags which are validated and/or provided by trusted developers.
+- To handle WP's Conditional Tags, this plugin uses **eval()** which is very dangerous because it allows execution of arbitrary PHP code. Therefore, please only fill this field with proper conditional tags which are validated and/or provided by trusted developers.
 
 - It is released on WordPress.org and you can use plugin as free to build themes for sale.
 
@@ -67,15 +67,15 @@ This plugin integrates some email marketing platforms, allowing subscribed email
 
 &#9658; GOOGLE RECAPTCHA
 
-- **ReCaptcha 2**: “I’m not a robot” Checkbox. This requires the user to click a checkbox indicating the user is not a robot. This will either pass the user immediately (with No CAPTCHA) or challenge them to validate whether or not they are human. This is the simplest option to integrate with and only requires two lines of HTML to render the checkbox.
+- **ReCaptcha 2**: "I'm not a robot" Checkbox. This requires the user to click a checkbox indicating the user is not a robot. This will either pass the user immediately (with No CAPTCHA) or challenge them to validate whether or not they are human. This is the simplest option to integrate with and only requires two lines of HTML to render the checkbox.
 - **ReCaptcha 3**: reCAPTCHA v3 allows you to verify if an interaction is legitimate without any user interaction. It is a pure JavaScript API returning a score, giving you the ability to take action in the context of your site: for instance requiring additional factors of authentication, sending a post to moderation, or throttling bots that may be scraping content.
 
 &#9658; SEND COUPON EMAIL
 The WooCommerce and WordPress email subscription plugin will automatically send emails to subscribers. Configure the email content as you want.
 
 - **Email content**: Write the emails that will be sent to subscribers with email heading, subject, content.
-- **Shortcode**: The plugin provides you shortcodes to display necessary information in the email{coupon_value} – The value of the coupon, can be percentage or currency amount depending on coupon type{coupon_code} – The code of coupon that will be sent to your subscribers{date_expires} – From the date that given coupon will no longer be available{last_valid_date} – That last day that coupon is valid{site_title} – The title of your website{shop_now} – The Shop Now button
-- **Shop now button**: the button that helps the customer to use the coupon you’ve just sent to them. You can set up the title, the URL, and the design of the button.
+- **Shortcode**: The plugin provides you shortcodes to display necessary information in the email{coupon_value} - The value of the coupon, can be percentage or currency amount depending on coupon type{coupon_code} - The code of coupon that will be sent to your subscribers{date_expires} - From the date that given coupon will no longer be available{last_valid_date} - That last day that coupon is valid{site_title} - The title of your website{shop_now} - The Shop Now button
+- **Shop now button**: the button that helps the customer to use the coupon you've just sent to them. You can set up the title, the URL, and the design of the button.
 
 &#9658; EMAIL CAMPAIGN
 Subscribed emails from this WooCommerce and WordPress email subscription plugin will be saved in email campaigns.
@@ -86,7 +86,7 @@ Subscribed emails from this WooCommerce and WordPress email subscription plugin 
 
 
 &#9658; DESIGN
-The front-end style of the Coupon Box pop-up to match your site’s style.
+The front-end style of the Coupon Box pop-up to match your site's style.
 
 - **Templates**: 4 templates with 4 different element arrangement ways.
 - **Message**: Display welcome, congratulation, thankyou-message.
@@ -113,13 +113,13 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 
 ### MAY BE YOU NEED
 
-[VISeek – Easy Custom Search](https://wordpress.org/plugins/viseek-easy-custom-search)
+[VISeek - Easy Custom Search](https://wordpress.org/plugins/viseek-easy-custom-search)
 
 [VARGAL - Additional Variation Gallery for Woo](https://wordpress.org/plugins/vargal-additional-variation-gallery-for-woo)
 
-[AFFI – Affiliate Marketing for WooCommerce](https://wordpress.org/plugins/affi-affiliate-marketing-for-woo)
+[AFFI - Affiliate Marketing for WooCommerce](https://wordpress.org/plugins/affi-affiliate-marketing-for-woo)
 
-[9Map – Map Multi Locations](https://wordpress.org/plugins/9map-map-multi-locations)
+[9Map - Map Multi Locations](https://wordpress.org/plugins/9map-map-multi-locations)
 
 [TMDS - Dropshipping for TEMU and Woo](https://wordpress.org/plugins/tmds-dropshipping-for-temu-and-woo)
 
@@ -133,43 +133,43 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 
 [GIFT4U - Gift Cards All in One for Woo](https://wordpress.org/plugins/gift4u-gift-cards-all-in-one-for-woo)
 
-[SUBRE – Product Subscription for WooCommerce](https://wordpress.org/plugins/subre-product-subscription-for-woo)
+[SUBRE - Product Subscription for WooCommerce](https://wordpress.org/plugins/subre-product-subscription-for-woo)
 
 [Clear Autoptimize Cache Automatically](https://wordpress.org/plugins/clear-autoptimize-cache-automatically)
 
-[FEWC – WooCommerce Extra Checkout Fields](https://wordpress.org/plugins/fewc-extra-checkout-fields-for-woocommerce)
+[FEWC - WooCommerce Extra Checkout Fields](https://wordpress.org/plugins/fewc-extra-checkout-fields-for-woocommerce)
 
-[EPOW – Custom Product Options for WooCommerce](https://wordpress.org/plugins/epow-custom-product-options-for-woocommerce)
+[EPOW - Custom Product Options for WooCommerce](https://wordpress.org/plugins/epow-custom-product-options-for-woocommerce)
 
-[ChinaDS – Taobao Dropshipping for WooCommerce](https://wordpress.org/plugins/chinads-dropshipping-taobao-woocommerce)
+[ChinaDS - Taobao Dropshipping for WooCommerce](https://wordpress.org/plugins/chinads-dropshipping-taobao-woocommerce)
 
-[9MAIL – WordPress Email Templates Designer](https://wordpress.org/plugins/9mail-wp-email-templates-designer)
+[9MAIL - WordPress Email Templates Designer](https://wordpress.org/plugins/9mail-wp-email-templates-designer)
 
-[EPOI – WP Points and Rewards](https://wordpress.org/plugins/epoi-wp-points-and-rewards)
+[EPOI - WP Points and Rewards](https://wordpress.org/plugins/epoi-wp-points-and-rewards)
 
-[WebPOS – Point of Sale for WooCommerce](https://wordpress.org/plugins/webpos-point-of-sale-for-woocommerce)
+[WebPOS - Point of Sale for WooCommerce](https://wordpress.org/plugins/webpos-point-of-sale-for-woocommerce)
 
-[Jagif – WooCommerce Free Gift](https://wordpress.org/plugins/jagif-woo-free-gift)
+[Jagif - WooCommerce Free Gift](https://wordpress.org/plugins/jagif-woo-free-gift)
 
-[Coreem – Coupon Reminder for WooCommerce](https://wordpress.org/plugins/woo-coupon-reminder)
+[Coreem - Coupon Reminder for WooCommerce](https://wordpress.org/plugins/woo-coupon-reminder)
 
-[COMPE – WooCommerce Compare Products](https://wordpress.org/plugins/compe-woo-compare-products)
+[COMPE - WooCommerce Compare Products](https://wordpress.org/plugins/compe-woo-compare-products)
 
-[W2S – Migrate WooCommerce to Shopify](https://wordpress.org/plugins/w2s-migrate-woo-to-shopify)
+[W2S - Migrate WooCommerce to Shopify](https://wordpress.org/plugins/w2s-migrate-woo-to-shopify)
 
 [REDIS - WooCommerce Dynamic Pricing and Discounts](https://wordpress.org/plugins/redis-woo-dynamic-pricing-and-discounts)
 
-[EXMAGE – WordPress Image Links](https://wordpress.org/plugins/exmage-wp-image-links)
+[EXMAGE - WordPress Image Links](https://wordpress.org/plugins/exmage-wp-image-links)
 
-[Pofily – WooCommerce Product Filters](https://wordpress.org/plugins/pofily-woo-product-filters)
+[Pofily - WooCommerce Product Filters](https://wordpress.org/plugins/pofily-woo-product-filters)
 
 [Bopo - WooCommerce Product Bundle Builder](https://wordpress.org/plugins/bopo-woo-product-bundle-builder)
 
-[WPBulky – WordPress Bulk Edit Post Types](https://wordpress.org/plugins/wpbulky-wp-bulk-edit-post-types)
+[WPBulky - WordPress Bulk Edit Post Types](https://wordpress.org/plugins/wpbulky-wp-bulk-edit-post-types)
 
 [Bulky - Bulk Edit Products for WooCommerce](https://wordpress.org/plugins/bulky-bulk-edit-products-for-woo)
 
-[Catna – Woo Name Your Price and Offers](https://wordpress.org/plugins/catna-woo-name-your-price-and-offers)
+[Catna - Woo Name Your Price and Offers](https://wordpress.org/plugins/catna-woo-name-your-price-and-offers)
 
 [Product Size Chart For WooCommerce](https://wordpress.org/plugins/product-size-chart-for-woo)
 
@@ -221,7 +221,7 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 
 [Notification for WooCommerce](https://wordpress.org/plugins/woo-notification)
 
-[CURCY – Multi Currency for WooCommerce](https://wordpress.org/plugins/woo-multi-currency)
+[CURCY - Multi Currency for WooCommerce](https://wordpress.org/plugins/woo-multi-currency)
 
 [Coupon Box for WooCommerce](https://wordpress.org/plugins/woo-coupon-box)
 
@@ -259,11 +259,14 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 4. Subscribed email list
 
 == Changelog ==
+/**2.1.12 - 2026.06.20**/
+- Updated: VillaTheme support
+
 /**2.1.11 - 2026.03.06**/
 - Updated: Only specific conditional tags are supported.
 
 /**2.1.10 - 2026.01.20**/
-– Updated: Check compatible with WordPress 6.9 & WooCommerce 10.4
+- Updated: Check compatible with WordPress 6.9 & WooCommerce 10.4
 - Updated: Updated support file
 
 /**2.1.9 - 2025.10.18**/
@@ -272,46 +275,46 @@ The front-end style of the Coupon Box pop-up to match your site’s style.
 
 /**2.1.8 - 2025.07.23**/
 - Updated: Minify some source code
-– Updated: Add setting descriptions
+- Updated: Add setting descriptions
 
 /**2.1.7 - 2025.03.18**/
-– Updated: Change display condition of some setting field
+- Updated: Change display condition of some setting field
 
 /**2.1.6 - 2024.11.26**/
-– Updated: Add setting descriptions
+- Updated: Add setting descriptions
 
 /**2.1.5 - 2024.09.19**/
-– Fixed: Error when verify nonce when submit email
+- Fixed: Error when verify nonce when submit email
 
 /**2.1.4 - 2024.09.13**/
-– Updated: Update Security
+- Updated: Update Security
 - Updated: Compatible with WC 9.3.1 and PHP 8.1
 
 /**2.1.3 - 2024.05.06**/
-– Fixed: Missing min Css support file
+- Fixed: Missing min Css support file
 
 /**2.1.2 - 2024.11.04**/
 - Updated: Updated support file
 
 /**2.1.1 - 2023.11.29**/
 - Updated: Update Mailchimp API
-– Updated: Check compatible with WordPress 6.4 & WooCommerce 8.3
+- Updated: Check compatible with WordPress 6.4 & WooCommerce 8.3
 
 /**2.1.0 - 2023.08.24**/
 - Updated: Compatible with High-Performance order storage (COT)
 
 /**2.0.7 - 2022.10.13**/
 - Fixed: Check existence of get_current_screen function to avoid conflict with Divi builder
-– Updated: Check compatible with WooCommerce 7.0
+- Updated: Check compatible with WooCommerce 7.0
 
 /**2.0.6 - 2022.06.02**/
-– Updated: Check compatible with WordPress 6.0 & WooCommerce 6.5
+- Updated: Check compatible with WordPress 6.0 & WooCommerce 6.5
 
 /**2.0.5 - 2022.05.02**/
-– Updated: Check compatible with WooCommerce 6.4
+- Updated: Check compatible with WooCommerce 6.4
 
 /**2.0.4 - 2022.03.29**/
-– Updated: VillaTheme_Support
+- Updated: VillaTheme_Support
 
 /**2.0.2.2 - 2021.07.31**/
 - Updated: Update support file

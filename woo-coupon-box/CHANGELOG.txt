@@ -1,8 +1,11 @@
+/**2.1.12 - 2026.06.20**/
+- Updated: VillaTheme support
+
 /**2.1.11 - 2026.03.06**/
 - Updated: Only specific conditional tags are supported.
 
 /**2.1.10 - 2026.01.20**/
-– Updated: Check compatible with WordPress 6.9 & WooCommerce 10.4
+- Updated: Check compatible with WordPress 6.9 & WooCommerce 10.4
 - Updated: Updated support file
 
 /**2.1.9 - 2025.10.18**/
@@ -11,46 +14,46 @@
 
 /**2.1.8 - 2025.07.23**/
 - Updated: Minify some source code
-– Updated: Add setting descriptions
+- Updated: Add setting descriptions
 
 /**2.1.7 - 2025.03.18**/
-– Updated: Change display condition of some setting field
+- Updated: Change display condition of some setting field
 
 /**2.1.6 - 2024.11.26**/
-– Updated: Add setting descriptions
+- Updated: Add setting descriptions
 
 /**2.1.5 - 2024.09.19**/
-– Fixed: Error when verify nonce when submit email
+- Fixed: Error when verify nonce when submit email
 
 /**2.1.4 - 2024.09.13**/
-– Updated: Update Security
+- Updated: Update Security
 - Updated: Compatible with WC 9.3.1 and PHP 8.1
 
 /**2.1.3 - 2024.05.06**/
-– Fixed: Missing min Css support file
+- Fixed: Missing min Css support file
 
 /**2.1.2 - 2024.11.04**/
 - Updated: Updated support file
 
 /**2.1.1 - 2023.11.29**/
 - Updated: Update Mailchimp API
-– Updated: Check compatible with WordPress 6.4 & WooCommerce 8.3
+- Updated: Check compatible with WordPress 6.4 & WooCommerce 8.3
 
 /**2.1.0 - 2023.08.24**/
 - Updated: Compatible with High-Performance order storage (COT)
 
 /**2.0.7 - 2022.10.13**/
 - Fixed: Check existence of get_current_screen function to avoid conflict with Divi builder
-– Updated: Check compatible with WooCommerce 7.0
+- Updated: Check compatible with WooCommerce 7.0
 
 /**2.0.6 - 2022.06.02**/
-– Updated: Check compatible with WordPress 6.0 & WooCommerce 6.5
+- Updated: Check compatible with WordPress 6.0 & WooCommerce 6.5
 
 /**2.0.5 - 2022.05.02**/
-– Updated: Check compatible with WooCommerce 6.4
+- Updated: Check compatible with WooCommerce 6.4
 
 /**2.0.4 - 2022.03.29**/
-– Updated: VillaTheme_Support
+- Updated: VillaTheme_Support
 
 /**2.0.2.2 - 2021.07.31**/
 - Updated: Update support file
