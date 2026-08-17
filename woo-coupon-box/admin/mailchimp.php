@@ -3,7 +3,7 @@
 /*
 Class Name: VI_WOO_COUPON_BOX_Admin_Mailchimp
 Author: Andy Ha (support@villatheme.com)
-Author URI: http://villatheme.com
+Author URI: https://villatheme.com
 Copyright 2015 villatheme.com. All rights reserved.
 */
 if ( ! defined( 'ABSPATH' ) ) {

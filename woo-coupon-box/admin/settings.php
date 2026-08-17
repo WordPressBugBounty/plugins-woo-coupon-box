@@ -3,7 +3,7 @@
 /*
 Class Name: VI_WOO_COUPON_BOX_Admin_Admin
 Author: Andy Ha (support@villatheme.com)
-Author URI: http://villatheme.com
+Author URI: https://villatheme.com
 Copyright 2015 villatheme.com. All rights reserved.
 */
 if ( ! defined( 'ABSPATH' ) ) {
@@ -326,7 +326,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                     <label for="wcb_multi_language">
                                         <span class="description"><?php esc_html_e( 'You can use multi language if you are using WPML or Polylang. Make sure you had translated Coupon Box for WooCommerce in all your languages before using this feature.', 'woo-coupon-box' ) ?></span>
                                     </label>
@@ -338,7 +338,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                     <label for="ajax_endpoint_ajax">
                                         <span class="description"><?php esc_html_e( 'Let you select Ajax or Rest API to register email.', 'woo-coupon-box' ) ?></span>
                                     </label>
@@ -479,7 +479,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
 
@@ -489,7 +489,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                     <p>
                                         <span class="description"><?php esc_html_e( 'Register account when customer subscribe.', 'woo-coupon-box' ); ?>
                                     </p>
@@ -502,7 +502,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                         </table>
@@ -637,7 +637,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                     <p>
                                         <span class="description"><?php esc_html_e( 'After x days or Fixed date.', 'woo-coupon-box' ); ?>
                                     </p>
@@ -649,7 +649,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                     <p>
                                         <span class="description"><?php esc_html_e( 'Use with Fixed date type.', 'woo-coupon-box' ); ?>
                                     </p>
@@ -879,8 +879,8 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
-                                    <p class="description"><?php echo wp_kses_post( __( 'You can use <a href="https://1.envato.market/BZZv1" target="_blank">WooCommerce Email Template Customizer</a> or <a href="https://wordpress.org/plugins/email-template-customizer-for-woo" target="_blank">Email Template Customizer for WooCommerce</a> to create and customize your own email template. If no email template is selected, below email will be used.', 'woo-coupon-box' ) ) ?></p>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                    <p class="description"><?php echo wp_kses_post( __( 'You can use <a href="https://villatheme.com/extensions/woocommerce-email-template-customizer" target="_blank">WooCommerce Email Template Customizer</a> or <a href="https://wordpress.org/plugins/email-template-customizer-for-woo" target="_blank">Email Template Customizer for WooCommerce</a> to create and customize your own email template. If no email template is selected, below email will be used.', 'woo-coupon-box' ) ) ?></p>
                                 </td>
                             </tr>
                             <tr valign="top">
@@ -889,8 +889,8 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
-                                    <p class="description"><?php echo wp_kses_post( __( 'You can use <a href="https://1.envato.market/BZZv1" target="_blank">WooCommerce Email Template Customizer</a> or <a href="https://wordpress.org/plugins/email-template-customizer-for-woo" target="_blank">Email Template Customizer for WooCommerce</a> to create and customize your own email template. If no email template is selected, below email will be used.', 'woo-coupon-box' ) ) ?></p>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                    <p class="description"><?php echo wp_kses_post( __( 'You can use <a href="https://villatheme.com/extensions/woocommerce-email-template-customizer" target="_blank">WooCommerce Email Template Customizer</a> or <a href="https://wordpress.org/plugins/email-template-customizer-for-woo" target="_blank">Email Template Customizer for WooCommerce</a> to create and customize your own email template. If no email template is selected, below email will be used.', 'woo-coupon-box' ) ) ?></p>
                                 </td>
                             </tr>
 
@@ -932,7 +932,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                             <tr>
@@ -1016,7 +1016,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                             <tr valign="top">
@@ -1025,7 +1025,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                         </table>
@@ -1057,7 +1057,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                     <p class="description"><?php esc_html_e( 'If enabled, a confirm subscription email will be sent to each subscriber for them to confirm that they subscribe to your list.', 'woo-coupon-box' ) ?></p>
                                 </td>
                             </tr>
@@ -1067,7 +1067,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                             <tr valign="top">
@@ -1119,7 +1119,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                             
@@ -1129,7 +1129,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                             
@@ -1139,7 +1139,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                             
@@ -1149,7 +1149,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                             
@@ -1159,7 +1159,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
 
@@ -1169,7 +1169,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
 
@@ -1179,7 +1179,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                 </th>
                                 <td>
                                     <a class="vi-ui button" target="_blank"
-                                       href="https://1.envato.market/DzJ12"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
+                                       href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php esc_html_e( 'Upgrade This Feature', 'woo-coupon-box' ) ?></a>
                                 </td>
                             </tr>
                         </table>
@@ -1257,7 +1257,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                         </strong>
                                         <ul>
                                             <li>
-                                                <?php printf( '%s <a target="_blank" href="http://www.google.com/recaptcha/admin">%s</a> %s', esc_html__( '1, Visit', 'woo-coupon-box' ), esc_html__( 'page', 'woo-coupon-box' ), esc_html__( 'to sign up for an API key pair with your Gmail account', 'woo-coupon-box' ) ) ?>
+                                                <?php printf( '%s <a target="_blank" href="https://www.google.com/recaptcha/admin">%s</a> %s', esc_html__( '1, Visit', 'woo-coupon-box' ), esc_html__( 'page', 'woo-coupon-box' ), esc_html__( 'to sign up for an API key pair with your Gmail account', 'woo-coupon-box' ) ) ?>
                                             </li>
                                             
                                             <li class="wcb-recaptcha-v2-wrap"
@@ -1303,7 +1303,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                            placeholder="<?php esc_html_e( 'Ex: !is_page(array(123,41,20))', 'woo-coupon-box' ) ?>">
                                     
                                     <p class="description"><?php esc_html_e( 'Let you control on which pages coupon box will appear using ', 'woo-coupon-box' ) ?>
-                                        <a href="http://codex.wordpress.org/Conditional_Tags"><?php esc_html_e( 'WP\'s conditional tags', 'woo-coupon-box' ) ?></a>
+                                        <a href="https://codex.wordpress.org/Conditional_Tags"><?php esc_html_e( 'WP\'s conditional tags', 'woo-coupon-box' ) ?></a>
                                     </p>
                                     <p class="description">
                                         <strong>*</strong><?php esc_html_e( '"Home page" option above must be disabled to run these conditional tags.', 'woo-coupon-box' ) ?>

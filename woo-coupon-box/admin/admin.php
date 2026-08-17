@@ -3,7 +3,7 @@
 /*
 Class Name: VI_WOO_COUPON_BOX_Admin_Admin
 Author: Andy Ha (support@villatheme.com)
-Author URI: http://villatheme.com
+Author URI: https://villatheme.com
 Copyright 2015 villatheme.com. All rights reserved.
 */
 if ( ! defined( 'ABSPATH' ) ) {
@@ -209,9 +209,9 @@ class VI_WOO_COUPON_BOX_Admin_Admin {
         if ( class_exists( 'VillaTheme_Support' ) ) {
             new \VillaTheme_Support( array(
                 'support'    => 'https://wordpress.org/support/plugin/woo-coupon-box/',
-                'docs'       => 'http://docs.villatheme.com/?item=woo-coupon-box',
+                'docs'       => 'https://docs.villatheme.com/?item=woo-coupon-box',
                 'review'     => 'https://wordpress.org/support/plugin/woo-coupon-box/reviews/?rate=5#rate-response',
-                'pro_url'    => 'https://1.envato.market/DzJ12',
+                'pro_url'    => 'https://villatheme.com/extensions/woocommerce-coupon-box',
                 'css'        => VI_WOO_COUPON_BOX_CSS,
                 'image'      => VI_WOO_COUPON_BOX_IMAGES,
                 'slug'       => 'woo-coupon-box',

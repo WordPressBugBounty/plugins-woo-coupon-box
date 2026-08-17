@@ -1450,7 +1450,7 @@ msgstr ""
 #: D:/git/free-version/woo-coupon-box/woo-coupon-box/admin/settings.php:883
 #: D:/git/free-version/woo-coupon-box/woo-coupon-box/admin/settings.php:893
 msgid ""
-"You can use <a href=\"https://1.envato.market/BZZv1\" target=\"_blank\">"
+"You can use <a href=\"https://villatheme.com/extensions/woocommerce-email-template-customizer\" target=\"_blank\">"
 "WooCommerce Email Template Customizer</a> or <a href=\"https://wordpress."
 "org/plugins/email-template-customizer-for-woo\" target=\"_blank\">Email "
 "Template Customizer for WooCommerce</a> to create and customize your own "

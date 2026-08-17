@@ -1,12 +1,12 @@
 === Coupon Box for WooCommerce ===
 Contributors: villatheme, mrt3vn
-Donate link: http://www.villatheme.com/donate
+Donate link: https://www.villatheme.com/donate
 Tags: woocommerce coupon, coupon, coupon box, woocommerce subscribe, coupon subscribe
 Requires PHP: 7.0
 Requires at least: 5.0
 Tested up to: 7.0
 WC requires at least: 7.0
-WC tested up to: 10.8
+WC tested up to: 11.0
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -23,7 +23,7 @@ Coupon Box for WooCommerce is a WooCommerce and WordPress email subscription plu
 - Various subscription forms
 - Multilanguage coupon box
 
->[Try the Demo](http://new2new.com/?item=woo-coupon-box "Demo Coupon Box for WooCommerce") | [Documents](http://docs.villatheme.com/?item=woo-coupon-box "Documents") | [Premium version](https://1.envato.market/DzJ12) | [Facebook group](https://www.facebook.com/groups/villatheme "VillaTheme")
+>[Try the Demo](https://new2new.com/?item=woo-coupon-box "Demo Coupon Box for WooCommerce") | [Documents](https://docs.villatheme.com/?item=woo-coupon-box "Documents") | [Premium version](https://villatheme.com/extensions/woocommerce-coupon-box) | [Facebook group](https://www.facebook.com/groups/villatheme "VillaTheme")
 
 [youtube https://youtu.be/YftUCN9bzKw]
 
@@ -235,20 +235,20 @@ The front-end style of the Coupon Box pop-up to match your site's style.
 
 ### Documentation
 
-- [Getting Started](http://docs.villatheme.com/?item=woo-coupon-box)
+- [Getting Started](https://docs.villatheme.com/?item=woo-coupon-box)
 
 ### Plugin Links
 
-- [Project Page](http://villatheme.com)
-- [Documentation](http://docs.villatheme.com/?item=woo-coupon-box)
+- [Project Page](https://villatheme.com)
+- [Documentation](https://docs.villatheme.com/?item=woo-coupon-box)
 - [Report Bugs/Issues](https://villatheme.com/knowledge-base/security-is-our-priority/)
-- [Premium Extensions](http://villatheme.com)
+- [Premium Extensions](https://villatheme.com)
 
 == Installation ==
 
 1. Unzip the download package
-1. Upload `woo-coupon-box` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+2. Upload `woo-coupon-box` to the `/wp-content/plugins/` directory
+3. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
@@ -259,144 +259,148 @@ The front-end style of the Coupon Box pop-up to match your site's style.
 4. Subscribed email list
 
 == Changelog ==
-/**2.1.12 - 2026.06.20**/
+
+2026.08.17 - version 2.1.13
+- Updated: Compatible WooCommerce 11.0
+
+2026.06.20 - version 2.1.12
 - Updated: VillaTheme support
 
-/**2.1.11 - 2026.03.06**/
+2026.03.06 - version 2.1.11
 - Updated: Only specific conditional tags are supported.
 
-/**2.1.10 - 2026.01.20**/
+2026.01.20 - version 2.1.10
 - Updated: Check compatible with WordPress 6.9 & WooCommerce 10.4
 - Updated: Updated support file
 
-/**2.1.9 - 2025.10.18**/
+2025.10.18 - version 2.1.9
 - Updated: Rearrange customize social settings
 - Update: Add TikTok social media
 
-/**2.1.8 - 2025.07.23**/
+2025.07.23 - version 2.1.8
 - Updated: Minify some source code
 - Updated: Add setting descriptions
 
-/**2.1.7 - 2025.03.18**/
+2025.03.18 - version 2.1.7
 - Updated: Change display condition of some setting field
 
-/**2.1.6 - 2024.11.26**/
+2024.11.26 - version 2.1.6
 - Updated: Add setting descriptions
 
-/**2.1.5 - 2024.09.19**/
+2024.09.19 - version 2.1.5
 - Fixed: Error when verify nonce when submit email
 
-/**2.1.4 - 2024.09.13**/
+2024.09.13 - version 2.1.4
 - Updated: Update Security
 - Updated: Compatible with WC 9.3.1 and PHP 8.1
 
-/**2.1.3 - 2024.05.06**/
+2024.05.06 - version 2.1.3
 - Fixed: Missing min Css support file
 
-/**2.1.2 - 2024.11.04**/
+2024.11.04 - version 2.1.2
 - Updated: Updated support file
 
-/**2.1.1 - 2023.11.29**/
+2023.11.29 - version 2.1.1
 - Updated: Update Mailchimp API
 - Updated: Check compatible with WordPress 6.4 & WooCommerce 8.3
 
-/**2.1.0 - 2023.08.24**/
+2023.08.24 - version 2.1.0
 - Updated: Compatible with High-Performance order storage (COT)
 
-/**2.0.7 - 2022.10.13**/
+2022.10.13 - version 2.0.7
 - Fixed: Check existence of get_current_screen function to avoid conflict with Divi builder
 - Updated: Check compatible with WooCommerce 7.0
 
-/**2.0.6 - 2022.06.02**/
+2022.06.02 - version 2.0.6
 - Updated: Check compatible with WordPress 6.0 & WooCommerce 6.5
 
-/**2.0.5 - 2022.05.02**/
+2022.05.02 - version 2.0.5
 - Updated: Check compatible with WooCommerce 6.4
 
-/**2.0.4 - 2022.03.29**/
+2022.03.29 - version 2.0.4
 - Updated: VillaTheme_Support
 
-/**2.0.2.2 - 2021.07.31**/
+2021.07.31 - version 2.0.2.2
 - Updated: Update support file
 
-/**2.0.2.1 - 2021.06.18**/
+2021.06.18 - version 2.0.2.1
 - Updated: Update support file
 
-/**2.0.2 - 2021.06.01**/
+2021.06.01 - version 2.0.2
 - Update: Dashboard notices
 
-/**2.0.1.9 - 2021.04.10**/
+2021.04.10 - version 2.0.1.9
 - Updated: Show coupon within using shortcode after subscribe
 
-/**2.0.1.8 - 2021.03.27**/
+2021.03.27 - version 2.0.1.8
 - Fixed: Format date expire
 
-/**2.0.1.7 - 2021.03.19**/
+2021.03.19 - version 2.0.1.7
 - Fixed: close icon size on gift box icon
 
-/**2.0.1.6 - 2020.08.12**/
+2020.08.12 - version 2.0.1.6
 - Updated: Compatibility with WP5.5 and WC4.3
 
-/**2.0.1.5 - 2020.05.20**/
+2020.05.20 - version 2.0.1.5
 - Updated: compatible with Elementor for Shortcode
 - Updated: Compatible with WooCommerce 4.1
 
-/**2.0.1.4 - 2020.04.23**/
+2020.04.23 - version 2.0.1.4
 - Update: support class
 
-**2.0.1.3 - 2020.04.14**
+2020.04.14 - version 2.0.1.3
 - Update: Compatible with WP 5.4
 
-**2.0.1.2 - 2020.03.23**
+2020.03.23 - version 2.0.1.2
 - Update: support class
 
-**2.0.1 - 2019.12.02**
+2019.12.02 - version 2.0.1
 - Fixed: Settings products and categories
 - Changed: Datetime format of coupon
 - Added: Google reCAPTCHA
 - Added: Change title after subscribing
 - Added: Option to never reminder if click button close 'No, Thanks'
 
-/**2.0.0.12 - 2019.10.16**/
+2019.10.16 - version 2.0.0.12
 - Updated: Sanitize input data
 
-/**2.0.0.11 - 2019.10.15**/
+2019.10.15 - version 2.0.0.11
 - Fixed: jQuery with WP 5.3
 
-/**2.0.0.10 - 2019.10.07**/
+2019.10.07 - version 2.0.0.10
 - Updated: Change premium version url
 
-**2.0.0.8 - 2019.05.10**
+2019.05.10 - version 2.0.0.8
 - Updated: Change plugin name
 - Updated: Change premium version url
 
-**2.0.0.7 - 2019.04.03**
+2019.04.03 - version 2.0.0.7
 - Updated: Make admin notices dismissible
 
-**2.0.0.6 - 2019.02.25**
+2019.02.25 - version 2.0.0.6
 - Fixed: Coupon not saved when customers subscribe with shortcode [wcb_widget]
 
-**2.0.0.5 - 2019.01.17**
+2019.01.17 - version 2.0.0.5
 - Updated: Class support
 - Updated: Change coupon amount to float
 - Added: Preview email
 
-**2.0.0.4 - 2018.11.21**
+2018.11.21 - version 2.0.0.4
 - Updated: Class support
 - Updated: Add argument always_visible for shortcode: [wcb_widget always_visible="1"] to always show shortcode
 
-**2.0.0.3 - 2018.11.10**
+2018.11.10 - version 2.0.0.3
 - Update: Class support
 
-**2.0.0.2 - 2018.10.17**
+2018.10.17 - version 2.0.0.2
 - Removed: Upgrade notification
 - Updated: Class support
 - Optimized: Shorten unique coupon code
 
-**2.0.0.1 - 2018.10.15**
+2018.10.15 - version 2.0.0.1
 - Removed: Upgrade notice
 
-**2.0.0 - 2018.09.07**
+2018.09.07 - version 2.0.0
 - Fixed: All reported bugs
 - Optimized: Option and performance
 - Added: Unique coupon
@@ -404,36 +408,34 @@ The front-end style of the Coupon Box pop-up to match your site's style.
 - Added: Customizable button close, social icons, popup icons
 - Added: Option to turn Coupon box off for logged-in users
 
-/***1.2.3.2 - 2017.06.08**/
+2017.06.08 - version 1.2.3.2
 - Added: Export email for each campaign
 - Added: Display Countdown timer of coupon
 - Added: Initial time to display popup when the customer visit the first time.
 
-/***1.2.3.1 - 2017.07.07**/
+2017.07.07 - version 1.2.3.1
 - Fixed: Responsive popup on tablet and mobile
 
-/***1.2.3 - 2017.07.06**/
+2017.07.06 - version 1.2.3
 - Added: Taxonomy email campaign
 - Updated: Export list email subscribe with limit day
 
-/***1.2.2.2 - 2017.06.30**/
+2017.06.30 - version 1.2.2.2
 - Updated: More Social network
 - Fixed: Customize text follow us
 
-/***1.2.2.1 - 2017.06.30**/
+2017.06.30 - version 1.2.2.1
 - Fixed: Assign page
 
-/***1.2.2 - 2017.06.29**/
+2017.06.29 - version 1.2.2
 - Added: Export list email subscribe to CSV
 
-/***1.2.1 - 2017.06.26**/
+2017.06.26 - version 1.2.1
 - Added: Add widget Newsletter form and use shortcode for it
 - Updated: Add more option customizer
 - Updated: Only register newsletter without coupon code.
 
-/***1.2 - 2017.06.24**/
+2017.06.24 - version 1.2
 - Updated: Direct customize on Customizer of WordPress system
 - Updated: Add Mailchimp to system
 - Updated: Email subscribe system
-
-== Upgrade Notice ==

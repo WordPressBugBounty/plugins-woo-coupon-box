@@ -74,7 +74,7 @@ if ( class_exists( 'WP_Customize_Control' ) ):
 					foreach ( $this->choices as $key => $value ) {
 						?>
                         <li>
-                            <a class="wcb-features-list-item" target="_blank" href="https://1.envato.market/DzJ12"><?php echo esc_html( $value ); ?></a>
+                            <a class="wcb-features-list-item" target="_blank" href="https://villatheme.com/extensions/woocommerce-coupon-box"><?php echo esc_html( $value ); ?></a>
                         </li>
 						<?php
 					}
@@ -89,8 +89,8 @@ if ( class_exists( 'WP_Customize_Control' ) ):
 	/**
 	 * Alpha Color Picker Custom Control
 	 *
-	 * @author Braad Martin <http://braadmartin.com>
-	 * @license http://www.gnu.org/licenses/gpl-3.0.html
+	 * @author Braad Martin <https://braadmartin.com>
+	 * @license https://www.gnu.org/licenses/gpl-3.0.html
 	 * @link https://github.com/BraadMartin/components/tree/master/customizer/alpha-color-picker
 	 */
 	class WOO_COUPON_BOX_Alpha_Color_Control extends WP_Customize_Control {
