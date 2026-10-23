@@ -1,10 +1,10 @@
-=== Coupon Box for WooCommerce ===
+=== Coupzy Coupon Box for WooCommerce ===
 Contributors: villatheme, mrt3vn
 Donate link: https://www.villatheme.com/donate
 Tags: woocommerce coupon, coupon, coupon box, woocommerce subscribe, coupon subscribe
-Requires PHP: 7.0
+Requires PHP: 7.4
 Requires at least: 5.0
-Tested up to: 7.0
+Tested up to: 7.1
 WC requires at least: 7.0
 WC tested up to: 11.0
 Stable tag: trunk
@@ -15,7 +15,7 @@ Engage customers while collecting their email address with a well-designed popup
 
 == Description ==
 
-Coupon Box for WooCommerce is a WooCommerce and WordPress email subscription plugin that helps you collect emails from your visitor. Don't waste your traffic, Email marketing is an old-but-gold marketing channel. The WooCommerce and WordPress email subscription plugins help you turn traffic into email subscribers. The WooCommerce and WordPress email subscription plugins display a subscribe email pop-up to new visitors, offering coupons and asking them to subscribe email, generating and sending a coupon code to the subscribed email address. You can check the subscribed email addresses in the plugin back-end or sync with your email marketing platforms through API.
+Coupzy Coupon Box for WooCommerce is a WooCommerce and WordPress email subscription plugin that helps you collect emails from your visitor. Don't waste your traffic, Email marketing is an old-but-gold marketing channel. The WooCommerce and WordPress email subscription plugins help you turn traffic into email subscribers. The WooCommerce and WordPress email subscription plugins display a subscribe email pop-up to new visitors, offering coupons and asking them to subscribe email, generating and sending a coupon code to the subscribed email address. You can check the subscribed email addresses in the plugin back-end or sync with your email marketing platforms through API.
 
 - Display Coupon Box pop-up, allowing users to subscribe to their email.
 - Sync email with MailChimp, Active Campaign, SendGrid email platforms.
@@ -23,7 +23,7 @@ Coupon Box for WooCommerce is a WooCommerce and WordPress email subscription plu
 - Various subscription forms
 - Multilanguage coupon box
 
->[Try the Demo](https://new2new.com/?item=woo-coupon-box "Demo Coupon Box for WooCommerce") | [Documents](https://docs.villatheme.com/?item=woo-coupon-box "Documents") | [Premium version](https://villatheme.com/extensions/woocommerce-coupon-box) | [Facebook group](https://www.facebook.com/groups/villatheme "VillaTheme")
+>[Try the Demo](https://new2new.com/?item=woo-coupon-box "Demo Coupzy Coupon Box for WooCommerce") | [Documents](https://docs.villatheme.com/?item=woo-coupon-box "Documents") | [Premium version](https://villatheme.com/extensions/woocommerce-coupon-box) | [Facebook group](https://www.facebook.com/groups/villatheme "VillaTheme")
 
 [youtube https://youtu.be/YftUCN9bzKw]
 
@@ -223,7 +223,7 @@ The front-end style of the Coupon Box pop-up to match your site's style.
 
 [CURCY - Multi Currency for WooCommerce](https://wordpress.org/plugins/woo-multi-currency)
 
-[Coupon Box for WooCommerce](https://wordpress.org/plugins/woo-coupon-box)
+[Coupzy Coupon Box for WooCommerce](https://wordpress.org/plugins/woo-coupon-box)
 
 ### 3rd party services
 - Protecting forms from spam and abuse by using Google's reCAPTCHA service.
@@ -242,7 +242,7 @@ The front-end style of the Coupon Box pop-up to match your site's style.
 - [Project Page](https://villatheme.com)
 - [Documentation](https://docs.villatheme.com/?item=woo-coupon-box)
 - [Report Bugs/Issues](https://villatheme.com/knowledge-base/security-is-our-priority/)
-- [Premium Extensions](https://villatheme.com)
+- [Premium version](https://villatheme.com/extensions/woocommerce-coupon-box)
 
 == Installation ==
 
