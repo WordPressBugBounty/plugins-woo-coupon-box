@@ -1,5 +1,13 @@
 *** Coupzy Coupon Box for WooCommerce Changelog ***
 
+2026.11.13 - version 2.1.14
+- Fixed: Export Email CSV corrupted by debug output and missing dependsOn script
+- Fixed: Admin coupon/product/category search missing nonce and deprecated string sanitization
+- Fixed: Unique coupons not excluded from Existing coupon picker
+- Updated: Public subscribe rate limiting, reCAPTCHA verify hygiene, and email sanitization
+- Updated: Bound subscribe existence queries and conditional shortcode asset loading
+- Updated: Compatibility with WooCommerce 11.2 and PHP 8.5
+
 2026.08.17 - version 2.1.13
 - Updated: Compatible WooCommerce 11.0
 

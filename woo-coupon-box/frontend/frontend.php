@@ -59,32 +59,42 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
             }
             
             try {
-                $url      = 'https://www.google.com/recaptcha/api/siteverify?secret=' . $wcb_recaptcha_secret_key . '&response=' . $g_validate_response;
-                $response = wp_remote_post( $url );
-                $body     = wp_remote_retrieve_body( $response );
-                
+                $response = wp_remote_post(
+                    'https://www.google.com/recaptcha/api/siteverify',
+                    array(
+                        'body' => array(
+                            'secret'   => $wcb_recaptcha_secret_key,
+                            'response' => $g_validate_response,
+                        ),
+                    )
+                );
+                $body = wp_remote_retrieve_body( $response );
                 $data = json_decode( $body, true );
+                if ( ! is_array( $data ) ) {
+                    $msg['status']  = 'invalid';
+                    $msg['warning'] = esc_html__( '*reCAPTCHA verification failed', 'woo-coupon-box' );
+                    wp_send_json( $msg );
+                    die();
+                }
                 if ( $this->settings->get_params( 'wcb_recaptcha_version' ) == 2 ) {
-                    if ( ! $data['success'] ) {
+                    if ( empty( $data['success'] ) ) {
                         $msg['status']  = 'invalid';
                         $msg['warning'] = esc_html__( '*reCAPTCHA verification failed', 'woo-coupon-box' );
-                        $msg['message'] = $data;
                         wp_send_json( $msg );
                         die();
                     }
                 } else {
-                    $g_score = isset( $data['score'] ) ? $data['score'] : 0;
+                    $g_score = isset( $data['score'] ) ? (float) $data['score'] : 0;
                     if ( $g_score < 0.5 ) {
                         $msg['status']  = 'invalid';
                         $msg['warning'] = sprintf( "%s %s %s", esc_html__( '*reCAPTCHA score', 'woo-coupon-box' ), esc_html( $g_score ), esc_html__( 'lower than threshold 0.5 ', 'woo-coupon-box' ) );
-                        $msg['message'] = $data;
                         wp_send_json( $msg );
                         die();
                     }
                 }
             } catch ( Exception $e ) {
                 $msg['status']  = 'invalid';
-                $msg['warning'] = $e->getMessage();
+                $msg['warning'] = esc_html__( '*reCAPTCHA verification failed', 'woo-coupon-box' );
                 wp_send_json( $msg );
                 die;
             }
@@ -93,7 +103,17 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
         $wcb_enable_mailchimp            = $this->settings->get_params( 'wcb_enable_mailchimp' );
         $wcb_email_campaign              = $this->settings->get_params( 'wcb_email_campaign' );
         $wcb_footer_text_after_subscribe = $this->settings->get_params( 'wcb_footer_text_after_subscribe' );
-        $email                           = filter_input( INPUT_POST, 'email', FILTER_SANITIZE_EMAIL );
+        $email                           = isset( $_POST['email'] ) ? sanitize_email( wp_unslash( $_POST['email'] ) ) : '';
+        $ip                              = class_exists( 'WC_Geolocation' ) ? WC_Geolocation::get_ip_address() : '';
+        if ( function_exists( 'wcb_subscribe_rate_limited' ) && wcb_subscribe_rate_limited( $ip, $email ) ) {
+            wp_send_json(
+                array(
+                    'status'  => 'invalid',
+                    'warning' => esc_html__( '*Too many requests. Please try again later.', 'woo-coupon-box' ),
+                )
+            );
+            die;
+        }
         
         $msg = array(
             'status'           => '',
@@ -130,7 +150,7 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
             //		    check if email already subscribed
             $emails_args = array(
                 'post_type'      => 'wcb',
-                'posts_per_page' => - 1,
+                'posts_per_page' => 1,
                 'title'          => $email,
                 'post_status'    => array( // (string | array) - use post status. Retrieves posts by Post Status, default value i'publish'.
                     'publish', // - a published post or page.
@@ -263,7 +283,7 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
         $args      = array(
             'post_type'      => 'shop_coupon',
             'post_status'    => 'publish',
-            'posts_per_page' => - 1,
+            'posts_per_page' => 1,
             'title'          => $code,
         );
         $the_query = new WP_Query( $args );
@@ -322,9 +342,17 @@ class VI_WOO_COUPON_BOX_Frontend_Frontend {
                     $coupon->set_email_restrictions( array( $email ) );
                 }
                 $coupon->save();
+                $coupon_id = $coupon->get_id();
+                if ( $coupon_id ) {
+                    update_post_meta( $coupon_id, 'wcb_unique_coupon', 1 );
+                }
                 $code = $coupon->get_code();
+                break;
             default:
         }
+        
+        $code = apply_filters( 'wcb_create_coupon_code', $code, $email );
+        do_action( 'wcb_created_coupon', $code, $email );
         
         return $code;
     }

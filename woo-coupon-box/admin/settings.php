@@ -103,8 +103,13 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
         if ( ! current_user_can( 'manage_options' ) ) {
             return;
         }
+        $nonce = isset( $_GET['nonce'] ) ? sanitize_text_field( wp_unslash( $_GET['nonce'] ) ) : '';
+        if ( ! $nonce || ! wp_verify_nonce( $nonce, 'wcb_admin_nonce' ) ) {
+            wp_send_json( array() );
+            die;
+        }
         ob_start();
-        $keyword = filter_input( INPUT_GET, 'keyword', FILTER_SANITIZE_STRING );
+        $keyword = isset( $_GET['keyword'] ) ? sanitize_text_field( wp_unslash( $_GET['keyword'] ) ) : '';
         if ( empty( $keyword ) ) {
             die();
         }
@@ -114,7 +119,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
             'posts_per_page' => 50,
             's'              => $keyword,
             'meta_query'     => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
-                'ralation' => 'AND',
+                'relation' => 'AND',
                 array(
                     'key'     => 'wlwl_unique_coupon',
                     'compare' => 'NOT EXISTS',
@@ -123,8 +128,13 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                     'key'     => 'kt_unique_coupon',
                     'compare' => 'NOT EXISTS',
                 ),
+                array(
+                    'key'     => 'wcb_unique_coupon',
+                    'compare' => 'NOT EXISTS',
+                ),
             ),
         );
+        $arg            = apply_filters( 'wcb_search_coupon_args', $arg, $keyword );
         $the_query      = new WP_Query( $arg );
         $found_products = array();
         if ( $the_query->have_posts() ) {
@@ -149,6 +159,8 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
             }
         }
         wp_reset_postdata();
+        $found_products = apply_filters( 'wcb_search_coupon_results', $found_products, $keyword );
+        do_action( 'wcb_search_coupon_done', $found_products, $keyword );
         wp_send_json( $found_products );
         die;
     }
@@ -157,10 +169,15 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
         if ( ! current_user_can( 'manage_options' ) ) {
             return;
         }
+        $nonce = isset( $_GET['nonce'] ) ? sanitize_text_field( wp_unslash( $_GET['nonce'] ) ) : '';
+        if ( ! $nonce || ! wp_verify_nonce( $nonce, 'wcb_admin_nonce' ) ) {
+            wp_send_json( array() );
+            die;
+        }
         
         ob_start();
         
-        $keyword = filter_input( INPUT_GET, 'keyword', FILTER_SANITIZE_STRING );
+        $keyword = isset( $_GET['keyword'] ) ? sanitize_text_field( wp_unslash( $_GET['keyword'] ) ) : '';
         
         if ( empty( $keyword ) ) {
             die();
@@ -175,7 +192,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
         ) );
         
         $items = array();
-        if ( count( $categories ) ) {
+        if ( ! is_wp_error( $categories ) && count( $categories ) ) {
             foreach ( $categories as $category ) {
                 $item    = array(
                     'id'   => $category->term_id,
@@ -185,6 +202,8 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
             }
         }
         
+        $items = apply_filters( 'wcb_search_cate_results', $items, $keyword );
+        do_action( 'wcb_search_cate_done', $items, $keyword );
         wp_send_json( $items );
         die;
     }
@@ -193,10 +212,15 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
         if ( ! current_user_can( 'manage_options' ) ) {
             return;
         }
+        $nonce = isset( $_GET['nonce'] ) ? sanitize_text_field( wp_unslash( $_GET['nonce'] ) ) : '';
+        if ( ! $nonce || ! wp_verify_nonce( $nonce, 'wcb_admin_nonce' ) ) {
+            wp_send_json( array() );
+            die;
+        }
         
         ob_start();
         
-        $keyword = filter_input( INPUT_GET, 'keyword', FILTER_SANITIZE_STRING );
+        $keyword = isset( $_GET['keyword'] ) ? sanitize_text_field( wp_unslash( $_GET['keyword'] ) ) : '';
         
         if ( empty( $keyword ) ) {
             die();
@@ -215,6 +239,9 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
             while ( $the_query->have_posts() ) {
                 $the_query->the_post();
                 $prd = wc_get_product( get_the_ID() );
+                if ( ! $prd ) {
+                    continue;
+                }
                 
                 if ( $prd->has_child() && $prd->is_type( 'variable' ) ) {
                     $product_children = $prd->get_children();
@@ -226,7 +253,10 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                                     'text' => get_the_title( $product_child ),
                                 );
                             } else {
-                                $child_wc  = wc_get_product( $product_child );
+                                $child_wc = wc_get_product( $product_child );
+                                if ( ! $child_wc ) {
+                                    continue;
+                                }
                                 $get_atts  = $child_wc->get_variation_attributes();
                                 $attr_name = array_values( $get_atts )[0];
                                 $product   = array(
@@ -240,8 +270,7 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                 } else {
                     $product_id    = get_the_ID();
                     $product_title = get_the_title();
-                    $the_product   = new WC_Product( $product_id );
-                    if ( ! $the_product->is_in_stock() ) {
+                    if ( ! $prd->is_in_stock() ) {
                         $product_title .= ' (out-of-stock)';
                     }
                     $product          = array( 'id' => $product_id, 'text' => $product_title );
@@ -249,6 +278,8 @@ class VI_WOO_COUPON_BOX_Admin_Settings {
                 }
             }
         }
+        $found_products = apply_filters( 'wcb_search_product_results', $found_products, $keyword );
+        do_action( 'wcb_search_product_done', $found_products, $keyword );
         wp_send_json( $found_products );
         die;
     }

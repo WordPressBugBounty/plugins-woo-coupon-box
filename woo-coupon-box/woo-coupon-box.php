@@ -3,7 +3,7 @@
  * Plugin Name: Coupzy Coupon Box for WooCommerce
  * Plugin URI: https://villatheme.com/extensions/woo-coupon-box/
  * Description: Engage customers while collecting their email address with a well-designed popup. Optionally reward them with coupons.
- * Version: 2.1.13
+ * Version: 2.1.14
  * Author: VillaTheme
  * Author URI: https://villatheme.com
  * License: GPLv2
@@ -15,7 +15,7 @@
  * Requires at least: 5.0
  * Tested up to: 7.1
  * WC requires at least: 7.0
- * WC tested up to: 11.0
+ * WC tested up to: 11.2
  * Requires PHP: 7.4
  */
 
@@ -39,7 +39,7 @@ if ( is_plugin_active( 'coupzy-coupon-box/coupzy-coupon-box.php' ) ) {
 	return;
 }
 
-define( 'VI_WOO_COUPON_BOX_VERSION', '2.1.13' );
+define( 'VI_WOO_COUPON_BOX_VERSION', '2.1.14' );
 
 class VI_WOO_COUPON_BOX_FREE {
 	public function __construct() {

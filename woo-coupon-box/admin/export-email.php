@@ -23,7 +23,6 @@ class VI_WOO_COUPON_BOX_Admin_Export_Email {
             return;
         }
         if ( isset( $_POST['_woocouponboxexpemail_nonce'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['_woocouponboxexpemail_nonce'] ) ), 'woocouponboxexpemail_action_nonce' ) ) {
-            echo 'a1';
             $p_type        = 'wcb';
             $select_export = isset( $_POST['wcb_select_export'] ) ? sanitize_text_field( wp_unslash( $_POST['wcb_select_export'] ) ) : 1;
             $filename      = "woo_coupon_box_";
@@ -244,7 +243,11 @@ class VI_WOO_COUPON_BOX_Admin_Export_Email {
         wp_enqueue_script( 'woo-coupon-box-export-form', VI_WOO_COUPON_BOX_JS . 'form.min.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
         wp_enqueue_script( 'woo-coupon-box-export-transition', VI_WOO_COUPON_BOX_JS . 'transition.min.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
         wp_enqueue_script( 'woo-coupon-box-export-dropdown', VI_WOO_COUPON_BOX_JS . 'dropdown.min.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
-        wp_enqueue_script( 'woo-coupon-box-export-dependOn', VI_WOO_COUPON_BOX_JS . 'dependsOn.min.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
+        $depends_min = $src_min;
+        if ( ! is_file( VI_WOO_COUPON_BOX_JS_DIR . 'dependsOn' . $depends_min . '.js' ) ) {
+            $depends_min = '';
+        }
+        wp_enqueue_script( 'woo-coupon-box-export-dependOn', VI_WOO_COUPON_BOX_JS . 'dependsOn' . $depends_min . '.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
         wp_enqueue_script( 'woo-coupon-box-export-admin', VI_WOO_COUPON_BOX_JS . 'wcb_export_date' . $src_min . '.js', array( 'jquery' ), VI_WOO_COUPON_BOX_VERSION, true );
     }
     

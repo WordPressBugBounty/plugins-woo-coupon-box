@@ -6,7 +6,7 @@ Requires PHP: 7.4
 Requires at least: 5.0
 Tested up to: 7.1
 WC requires at least: 7.0
-WC tested up to: 11.0
+WC tested up to: 11.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -242,7 +242,7 @@ The front-end style of the Coupon Box pop-up to match your site's style.
 - [Project Page](https://villatheme.com)
 - [Documentation](https://docs.villatheme.com/?item=woo-coupon-box)
 - [Report Bugs/Issues](https://villatheme.com/knowledge-base/security-is-our-priority/)
-- [Premium version](https://villatheme.com/extensions/woocommerce-coupon-box)
+- [Premium Extensions](https://villatheme.com)
 
 == Installation ==
 
@@ -259,6 +259,14 @@ The front-end style of the Coupon Box pop-up to match your site's style.
 4. Subscribed email list
 
 == Changelog ==
+
+2026.11.13 - version 2.1.14
+- Fixed: Export Email CSV corrupted by debug output and missing dependsOn script
+- Fixed: Admin coupon/product/category search missing nonce and deprecated string sanitization
+- Fixed: Unique coupons not excluded from Existing coupon picker
+- Updated: Public subscribe rate limiting, reCAPTCHA verify hygiene, and email sanitization
+- Updated: Bound subscribe existence queries and conditional shortcode asset loading
+- Updated: Compatibility with WooCommerce 11.2 and PHP 8.5
 
 2026.08.17 - version 2.1.13
 - Updated: Compatible WooCommerce 11.0

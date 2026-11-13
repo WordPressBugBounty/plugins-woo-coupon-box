@@ -127,7 +127,8 @@ jQuery(document).ready(function () {
             delay: 250,
             data: function (params) {
                 return {
-                    keyword: params.term
+                    keyword: params.term,
+                    nonce: (typeof woo_coupon_box_params_admin !== 'undefined') ? woo_coupon_box_params_admin.nonce : ''
                 };
             },
             processResults: function (data) {
@@ -153,7 +154,8 @@ jQuery(document).ready(function () {
             delay: 250,
             data: function (params) {
                 return {
-                    keyword: params.term
+                    keyword: params.term,
+                    nonce: (typeof woo_coupon_box_params_admin !== 'undefined') ? woo_coupon_box_params_admin.nonce : ''
                 };
             },
             processResults: function (data) {
@@ -178,7 +180,8 @@ jQuery(document).ready(function () {
             delay: 250,
             data: function (params) {
                 return {
-                    keyword: params.term
+                    keyword: params.term,
+                    nonce: (typeof woo_coupon_box_params_admin !== 'undefined') ? woo_coupon_box_params_admin.nonce : ''
                 };
             },
             processResults: function (data) {

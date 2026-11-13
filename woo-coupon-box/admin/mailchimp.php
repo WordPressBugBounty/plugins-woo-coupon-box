@@ -41,21 +41,26 @@ class VI_WOO_COUPON_BOX_Admin_Mailchimp {
                     $body       = wp_remote_retrieve_body( $r );
                     $lists_data = json_decode( $body );
                     
-                    if ( property_exists( $lists_data, 'lists' ) ) {
-                        $data  = $lists_data->lists;
-                        $lists = array();
-                        if ( count( $data ) ) {
-                            foreach ( $data as $list ) {
-                                $lists[ $list->id ] = $list->name;
+                    if ( ! is_object( $lists_data ) || ! property_exists( $lists_data, 'lists' ) ) {
+                        return false;
+                    }
+                    $data  = $lists_data->lists;
+                    $lists = array();
+                    if ( is_array( $data ) && count( $data ) ) {
+                        foreach ( $data as $list ) {
+                            if ( ! is_object( $list ) || ! isset( $list->id, $list->name ) ) {
+                                continue;
                             }
-                        } else {
-                            return false;
+                            $lists[ $list->id ] = $list->name;
                         }
-                        
-                        return $lists;
                     } else {
                         return false;
                     }
+
+                    $lists = apply_filters( 'wcb_mailchimp_lists', $lists );
+                    do_action( 'wcb_mailchimp_lists_fetched', $lists );
+
+                    return $lists;
                 } catch ( \Exception $e ) {
                     return false;
                 }
@@ -111,13 +116,14 @@ class VI_WOO_COUPON_BOX_Admin_Mailchimp {
                     
                     $body = wp_remote_retrieve_body( $r );
                     $data = json_decode( $body );
-                    switch ( $data->status ) {
-                        case 'subscribed':
-                            return true;
-                            break;
-                        default:
-                            return false;
+                    if ( ! is_object( $data ) || ! isset( $data->status ) ) {
+                        return false;
                     }
+                    $ok = ( 'subscribed' === $data->status );
+                    $ok = (bool) apply_filters( 'wcb_mailchimp_add_email_result', $ok, $email, $data );
+                    do_action( 'wcb_mailchimp_email_added', $ok, $email, $data );
+
+                    return $ok;
                 } catch ( \Exception $e ) {
                     return false;
                 }
