@@ -52,6 +52,33 @@ if ( ! function_exists( 'woocommerce_version_check' ) ) {
 	}
 }
 
+if ( ! function_exists( 'wcb_prepare_subscribe_email' ) ) {
+	/**
+	 * Sanitize, normalize, and reject wildcard-capable subscribe emails.
+	 *
+	 * @param mixed $raw Raw email from request (may be slashed).
+	 * @return string Normalized email, or empty string when invalid.
+	 */
+	function wcb_prepare_subscribe_email( $raw ) {
+		$email = '';
+		if ( is_string( $raw ) || is_numeric( $raw ) ) {
+			$email = sanitize_email( wp_unslash( (string) $raw ) );
+			$email = strtolower( trim( $email ) );
+		}
+		if ( '' === $email || false !== strpos( $email, '*' ) || ! is_email( $email ) ) {
+			$email = '';
+		}
+
+		$email = (string) apply_filters( 'wcb_prepare_subscribe_email', $email, $raw );
+		if ( '' === $email || false !== strpos( $email, '*' ) || ! is_email( $email ) ) {
+			$email = '';
+		}
+		do_action( 'wcb_prepared_subscribe_email', $email, $raw );
+
+		return $email;
+	}
+}
+
 if ( ! function_exists( 'wcb_subscribe_rate_limited' ) ) {
 	/**
 	 * Whether subscribe is rate-limited for IP and/or email.

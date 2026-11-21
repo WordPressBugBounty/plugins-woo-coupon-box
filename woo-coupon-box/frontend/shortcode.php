@@ -157,8 +157,8 @@ class VI_WOO_COUPON_BOX_Frontend_Shortcode {
         }
         $wcb_enable_mailchimp = $this->settings->get_params( 'wcb_enable_mailchimp' );
         $wcb_email_campaign   = $this->settings->get_params( 'wcb_email_campaign' );
-        $email                = isset( $_POST['email'] ) ? sanitize_email( wp_unslash( $_POST['email'] ) ) : '';
-        $show_coupon_code     = isset( $_POST['show_coupon'] ) ? sanitize_text_field( wp_unslash( $_POST['show_coupon'] ) ) : '';
+        $email                = isset( $_POST['email'] ) ? wcb_prepare_subscribe_email( $_POST['email'] ) : '';
+        $show_coupon_code     = $this->settings->get_params( 'wcb_show_coupon' );
         $ip                   = class_exists( 'WC_Geolocation' ) ? WC_Geolocation::get_ip_address() : '';
         if ( function_exists( 'wcb_subscribe_rate_limited' ) && wcb_subscribe_rate_limited( $ip, $email ) ) {
             wp_send_json(
@@ -327,10 +327,10 @@ class VI_WOO_COUPON_BOX_Frontend_Shortcode {
         switch ( $this->settings->get_params( 'wcb_coupon_select' ) ) {
             case 'existing':
                 $code = $this->settings->get_params( 'wcb_coupon' );
-                if ( $this->settings->get_params( 'wcb_coupon_unique_email_restrictions' ) ) {
+                if ( $this->settings->get_params( 'wcb_coupon_unique_email_restrictions' ) && $email && false === strpos( $email, '*' ) && is_email( $email ) ) {
                     $coupon = new WC_Coupon( $code );
                     $er     = $coupon->get_email_restrictions();
-                    if ( ! in_array( $email, $er ) ) {
+                    if ( ! in_array( $email, $er, true ) ) {
                         $er[] = $email;
                         $coupon->set_email_restrictions( $er );
                         $coupon->save();
@@ -365,7 +365,7 @@ class VI_WOO_COUPON_BOX_Frontend_Shortcode {
                 $coupon->set_exclude_sale_items( $this->settings->get_params( 'wcb_coupon_unique_exclude_sale_items' ) );
                 $coupon->set_minimum_amount( $this->settings->get_params( 'wcb_coupon_unique_minimum_amount' ) );
                 $coupon->set_maximum_amount( $this->settings->get_params( 'wcb_coupon_unique_maximum_amount' ) );
-                if ( $this->settings->get_params( 'wcb_coupon_unique_email_restrictions' ) ) {
+                if ( $this->settings->get_params( 'wcb_coupon_unique_email_restrictions' ) && $email && false === strpos( $email, '*' ) && is_email( $email ) ) {
                     $coupon->set_email_restrictions( array( $email ) );
                 }
                 $coupon->save();

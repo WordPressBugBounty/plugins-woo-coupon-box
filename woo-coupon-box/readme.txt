@@ -260,6 +260,10 @@ The front-end style of the Coupon Box pop-up to match your site's style.
 
 == Changelog ==
 
+2026.11.20 - version 2.1.15
+- Fixed: Reject subscribe emails containing WooCommerce wildcard * so coupons cannot match arbitrary billing addresses
+- Fixed: Widget subscribe no longer returns coupon codes based on client-supplied show_coupon
+
 2026.11.13 - version 2.1.14
 - Fixed: Export Email CSV corrupted by debug output and missing dependsOn script
 - Fixed: Admin coupon/product/category search missing nonce and deprecated string sanitization
